@@ -114,7 +114,7 @@ class GCCTrainer(object):
             else:
                 print('unknown memory update strategy:', memory_strategy)
                 import os
-                os._exist(0)
+                os._exit(0)
 
             if 'update' in memory_strategy:
                 memorybank[index] = (1 - self.momentum1 - self.momentum2*(N-2)/N ) * memorybank[index] \
@@ -125,4 +125,4 @@ class GCCTrainer(object):
             else:
                 print('unknown memory update strategy:', memory_strategy)
                 import os
-                os._exist(0)
+                os._exit(0)
