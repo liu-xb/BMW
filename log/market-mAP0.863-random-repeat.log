@@ -1,0 +1,2220 @@
+2026-03-15 16:37:28
+==========
+alpha : 0.999
+batch_size : 256
+best_map : 0.0
+beta : 0.05
+data_dir : E:/dataset/
+dataset_target : market
+debug : False
+epochs : 75
+eps : 0.6
+eval_step : 1
+gpus : 0
+height : 256
+init_path : 
+iters : 200
+k : 16
+logs : log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+loss_weight : 0.6
+lr : 0.00035
+memory_strategy : far-update
+momentum1 : 0.9
+momentum2 : 0.2
+num_clusters : 500
+num_instances : 16
+print_freq : 50
+seed : 1
+start_epoch : 0
+step : 25
+weight_decay : 0.0005
+width : 128
+workers : 1
+==========
+=> Market1501 loaded
+Dataset statistics:
+  ----------------------------------------
+  subset   | # ids | # images | # cameras
+  ----------------------------------------
+  train    |   751 |    12936 |         6
+  query    |   750 |     3368 |         6
+  gallery  |   751 |    15913 |         6
+  ----------------------------------------
+2026-03-15 16:37:31 extracting
+2026-03-15 16:37:37Extract Features: [1/51]	Time 5.004 (5.004)	Data 2.961 (2.961)	
+2026-03-15 16:37:57 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 26.47134232521057
+2026-03-15 16:38:24 start dbscan clustering
+2026-03-15 16:38:25
+ Clustered into 358 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 16:38:37[Epoch:000] [001/200] | Loss: 3.961 | Acc: 57.4219
+2026-03-15 16:39:09[Epoch:000] [050/200] | Loss: 4.133 | Acc: 36.2734
+2026-03-15 16:39:40[Epoch:000] [100/200] | Loss: 3.839 | Acc: 35.0508
+2026-03-15 16:40:10[Epoch:000] [150/200] | Loss: 3.616 | Acc: 37.0547
+2026-03-15 16:40:45[Epoch:000] [200/200] | Loss: 3.420 | Acc: 39.6133
+2026-03-15 16:40:45 extracting
+2026-03-15 16:40:49Extract Features: [1/151]	Time 4.126 (4.126)	Data 2.790 (2.790)	
+2026-03-15 16:41:08Extract Features: [100/151]	Time 0.218 (0.234)	Data 0.148 (0.149)	
+2026-03-15 16:41:21 extracting done 
+Mean AP: 12.3%
+CMC Scores:
+  top-1          28.3%
+  top-5          41.3%
+  top-10         47.2%
+{ 'Finished_epoch': 0, 'mAP': 12.2565%, rank1: 28%, 'best': 12.2565, 'at_epoch': 0, 'this_best': 1}
+2026-03-15 16:41:39
+Cost 0:04:13.849582
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 16:41:39 extracting
+2026-03-15 16:41:43Extract Features: [1/51]	Time 3.528 (3.528)	Data 3.038 (3.038)	
+2026-03-15 16:42:00 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 32.505439043045044
+2026-03-15 16:42:34 start dbscan clustering
+2026-03-15 16:42:36
+ Clustered into 575 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 16:42:44[Epoch:001] [001/200] | Loss: 0.356 | Acc: 96.0938
+2026-03-15 16:43:12[Epoch:001] [050/200] | Loss: 1.379 | Acc: 77.6953
+2026-03-15 16:43:40[Epoch:001] [100/200] | Loss: 2.564 | Acc: 56.9258
+2026-03-15 16:44:12[Epoch:001] [150/200] | Loss: 2.944 | Acc: 49.1979
+2026-03-15 16:44:40[Epoch:001] [200/200] | Loss: 3.060 | Acc: 47.1895
+2026-03-15 16:44:40 extracting
+2026-03-15 16:44:43Extract Features: [1/151]	Time 3.005 (3.005)	Data 2.771 (2.771)	
+2026-03-15 16:45:00Extract Features: [100/151]	Time 0.213 (0.200)	Data 0.142 (0.128)	
+2026-03-15 16:45:12 extracting done 
+Mean AP: 25.0%
+CMC Scores:
+  top-1          44.2%
+  top-5          60.1%
+  top-10         66.9%
+{ 'Finished_epoch': 1, 'mAP': 25.0039%, rank1: 44%, 'best': 25.0039, 'at_epoch': 1, 'this_best': 1}
+2026-03-15 16:45:27
+Cost 0:08:02.064604
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 16:45:28 extracting
+2026-03-15 16:45:31Extract Features: [1/51]	Time 3.355 (3.355)	Data 2.983 (2.983)	
+2026-03-15 16:45:48 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 32.04627847671509
+2026-03-15 16:46:21 start dbscan clustering
+2026-03-15 16:46:23
+ Clustered into 597 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 16:46:31[Epoch:002] [001/200] | Loss: 0.534 | Acc: 88.6719
+2026-03-15 16:46:58[Epoch:002] [050/200] | Loss: 1.229 | Acc: 79.8516
+2026-03-15 16:47:26[Epoch:002] [100/200] | Loss: 2.491 | Acc: 58.1719
+2026-03-15 16:47:59[Epoch:002] [150/200] | Loss: 2.914 | Acc: 50.4245
+2026-03-15 16:48:27[Epoch:002] [200/200] | Loss: 3.063 | Acc: 47.6895
+2026-03-15 16:48:27 extracting
+2026-03-15 16:48:30Extract Features: [1/151]	Time 3.018 (3.018)	Data 2.793 (2.793)	
+2026-03-15 16:48:47Extract Features: [100/151]	Time 0.246 (0.198)	Data 0.141 (0.125)	
+2026-03-15 16:48:58 extracting done 
+Mean AP: 38.8%
+CMC Scores:
+  top-1          60.0%
+  top-5          76.2%
+  top-10         82.3%
+{ 'Finished_epoch': 2, 'mAP': 38.7739%, rank1: 60%, 'best': 38.7739, 'at_epoch': 2, 'this_best': 1}
+2026-03-15 16:49:15
+Cost 0:11:49.282499
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 16:49:15 extracting
+2026-03-15 16:49:19Extract Features: [1/51]	Time 3.449 (3.449)	Data 3.032 (3.032)	
+2026-03-15 16:49:36 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 33.63424372673035
+2026-03-15 16:50:10 start dbscan clustering
+2026-03-15 16:50:11
+ Clustered into 611 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 16:50:19[Epoch:003] [001/200] | Loss: 0.351 | Acc: 94.5312
+2026-03-15 16:50:47[Epoch:003] [050/200] | Loss: 1.204 | Acc: 81.9219
+2026-03-15 16:51:16[Epoch:003] [100/200] | Loss: 2.427 | Acc: 59.5273
+2026-03-15 16:51:44[Epoch:003] [150/200] | Loss: 2.891 | Acc: 50.4453
+2026-03-15 16:52:16[Epoch:003] [200/200] | Loss: 3.061 | Acc: 46.8809
+2026-03-15 16:52:16 extracting
+2026-03-15 16:52:19Extract Features: [1/151]	Time 3.047 (3.047)	Data 2.848 (2.848)	
+2026-03-15 16:52:36Extract Features: [100/151]	Time 0.225 (0.196)	Data 0.157 (0.123)	
+2026-03-15 16:52:48 extracting done 
+Mean AP: 46.3%
+CMC Scores:
+  top-1          68.4%
+  top-5          83.1%
+  top-10         88.1%
+{ 'Finished_epoch': 3, 'mAP': 46.2973%, rank1: 68%, 'best': 46.2973, 'at_epoch': 3, 'this_best': 1}
+2026-03-15 16:53:04
+Cost 0:15:38.819101
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 16:53:05 extracting
+2026-03-15 16:53:08Extract Features: [1/51]	Time 3.416 (3.416)	Data 2.941 (2.941)	
+2026-03-15 16:53:25 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.948349714279175
+2026-03-15 16:53:55 start dbscan clustering
+2026-03-15 16:53:57
+ Clustered into 576 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 16:54:04[Epoch:004] [001/200] | Loss: 0.152 | Acc: 98.4375
+2026-03-15 16:54:32[Epoch:004] [050/200] | Loss: 1.224 | Acc: 79.7891
+2026-03-15 16:55:01[Epoch:004] [100/200] | Loss: 2.455 | Acc: 58.3516
+2026-03-15 16:55:33[Epoch:004] [150/200] | Loss: 2.909 | Acc: 49.5729
+2026-03-15 16:56:01[Epoch:004] [200/200] | Loss: 3.053 | Acc: 46.6484
+2026-03-15 16:56:01 extracting
+2026-03-15 16:56:04Extract Features: [1/151]	Time 3.043 (3.043)	Data 2.822 (2.822)	
+2026-03-15 16:56:21Extract Features: [100/151]	Time 0.226 (0.208)	Data 0.152 (0.135)	
+2026-03-15 16:56:33 extracting done 
+Mean AP: 54.3%
+CMC Scores:
+  top-1          74.8%
+  top-5          87.2%
+  top-10         91.7%
+{ 'Finished_epoch': 4, 'mAP': 54.3198%, rank1: 75%, 'best': 54.3198, 'at_epoch': 4, 'this_best': 1}
+2026-03-15 16:56:49
+Cost 0:19:24.092043
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 16:56:50 extracting
+2026-03-15 16:56:54Extract Features: [1/51]	Time 3.487 (3.487)	Data 3.022 (3.022)	
+2026-03-15 16:57:11 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 32.49024295806885
+2026-03-15 16:57:43 start dbscan clustering
+2026-03-15 16:57:45
+ Clustered into 565 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 16:57:53[Epoch:005] [001/200] | Loss: 0.378 | Acc: 92.5781
+2026-03-15 16:58:19[Epoch:005] [050/200] | Loss: 1.226 | Acc: 80.0391
+2026-03-15 16:58:47[Epoch:005] [100/200] | Loss: 2.363 | Acc: 59.043
+2026-03-15 16:59:19[Epoch:005] [150/200] | Loss: 2.800 | Acc: 50.6927
+2026-03-15 16:59:47[Epoch:005] [200/200] | Loss: 2.977 | Acc: 46.9102
+2026-03-15 16:59:47 extracting
+2026-03-15 16:59:50Extract Features: [1/151]	Time 3.040 (3.040)	Data 2.814 (2.814)	
+2026-03-15 17:00:09Extract Features: [100/151]	Time 0.103 (0.216)	Data 0.035 (0.142)	
+2026-03-15 17:00:21 extracting done 
+Mean AP: 60.1%
+CMC Scores:
+  top-1          80.2%
+  top-5          90.9%
+  top-10         94.1%
+{ 'Finished_epoch': 5, 'mAP': 60.0917%, rank1: 80%, 'best': 60.0917, 'at_epoch': 5, 'this_best': 1}
+2026-03-15 17:00:37
+Cost 0:23:11.308227
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:00:37 extracting
+2026-03-15 17:00:41Extract Features: [1/51]	Time 3.377 (3.377)	Data 2.911 (2.911)	
+2026-03-15 17:00:58 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.648613214492798
+2026-03-15 17:01:29 start dbscan clustering
+2026-03-15 17:01:31
+ Clustered into 546 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:01:38[Epoch:006] [001/200] | Loss: 0.326 | Acc: 95.7031
+2026-03-15 17:02:06[Epoch:006] [050/200] | Loss: 1.210 | Acc: 80.2109
+2026-03-15 17:02:34[Epoch:006] [100/200] | Loss: 2.321 | Acc: 58.9883
+2026-03-15 17:03:06[Epoch:006] [150/200] | Loss: 2.709 | Acc: 50.9401
+2026-03-15 17:03:34[Epoch:006] [200/200] | Loss: 2.881 | Acc: 47.459
+2026-03-15 17:03:34 extracting
+2026-03-15 17:03:37Extract Features: [1/151]	Time 3.047 (3.047)	Data 2.798 (2.798)	
+2026-03-15 17:03:54Extract Features: [100/151]	Time 0.163 (0.203)	Data 0.096 (0.130)	
+2026-03-15 17:04:06 extracting done 
+Mean AP: 64.9%
+CMC Scores:
+  top-1          84.0%
+  top-5          93.3%
+  top-10         95.6%
+{ 'Finished_epoch': 6, 'mAP': 64.9162%, rank1: 84%, 'best': 64.9162, 'at_epoch': 6, 'this_best': 1}
+2026-03-15 17:04:23
+Cost 0:26:57.570572
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:04:24 extracting
+2026-03-15 17:04:27Extract Features: [1/51]	Time 3.465 (3.465)	Data 3.000 (3.000)	
+2026-03-15 17:04:44 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 32.02496314048767
+2026-03-15 17:05:16 start dbscan clustering
+2026-03-15 17:05:18
+ Clustered into 563 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:05:26[Epoch:007] [001/200] | Loss: 0.290 | Acc: 94.9219
+2026-03-15 17:05:54[Epoch:007] [050/200] | Loss: 1.119 | Acc: 80.8516
+2026-03-15 17:06:22[Epoch:007] [100/200] | Loss: 2.236 | Acc: 60.3789
+2026-03-15 17:06:54[Epoch:007] [150/200] | Loss: 2.658 | Acc: 51.8776
+2026-03-15 17:07:22[Epoch:007] [200/200] | Loss: 2.827 | Acc: 48.5625
+2026-03-15 17:07:22 extracting
+2026-03-15 17:07:26Extract Features: [1/151]	Time 3.350 (3.350)	Data 3.119 (3.119)	
+2026-03-15 17:07:44Extract Features: [100/151]	Time 0.249 (0.212)	Data 0.182 (0.138)	
+2026-03-15 17:07:55 extracting done 
+Mean AP: 67.1%
+CMC Scores:
+  top-1          84.1%
+  top-5          93.1%
+  top-10         95.3%
+{ 'Finished_epoch': 7, 'mAP': 67.1481%, rank1: 84%, 'best': 67.1481, 'at_epoch': 7, 'this_best': 1}
+2026-03-15 17:08:11
+Cost 0:30:45.453160
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:08:12 extracting
+2026-03-15 17:08:15Extract Features: [1/51]	Time 3.492 (3.492)	Data 3.006 (3.006)	
+2026-03-15 17:08:32 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.343018054962158
+2026-03-15 17:09:03 start dbscan clustering
+2026-03-15 17:09:04
+ Clustered into 561 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:09:12[Epoch:008] [001/200] | Loss: 0.256 | Acc: 94.9219
+2026-03-15 17:09:39[Epoch:008] [050/200] | Loss: 1.070 | Acc: 82.0547
+2026-03-15 17:10:08[Epoch:008] [100/200] | Loss: 2.126 | Acc: 61.7461
+2026-03-15 17:10:39[Epoch:008] [150/200] | Loss: 2.546 | Acc: 53.4531
+2026-03-15 17:11:06[Epoch:008] [200/200] | Loss: 2.717 | Acc: 50.1387
+2026-03-15 17:11:06 extracting
+2026-03-15 17:11:09Extract Features: [1/151]	Time 3.052 (3.052)	Data 2.802 (2.802)	
+2026-03-15 17:11:28Extract Features: [100/151]	Time 0.235 (0.213)	Data 0.164 (0.141)	
+2026-03-15 17:11:40 extracting done 
+Mean AP: 71.5%
+CMC Scores:
+  top-1          87.1%
+  top-5          94.3%
+  top-10         96.3%
+{ 'Finished_epoch': 8, 'mAP': 71.4944%, rank1: 87%, 'best': 71.4944, 'at_epoch': 8, 'this_best': 1}
+2026-03-15 17:11:55
+Cost 0:34:30.127228
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:11:56 extracting
+2026-03-15 17:12:00Extract Features: [1/51]	Time 3.767 (3.767)	Data 3.294 (3.294)	
+2026-03-15 17:12:18 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 31.064991235733032
+2026-03-15 17:12:49 start dbscan clustering
+2026-03-15 17:12:51
+ Clustered into 575 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:13:00[Epoch:009] [001/200] | Loss: 0.252 | Acc: 96.875
+2026-03-15 17:13:30[Epoch:009] [050/200] | Loss: 0.967 | Acc: 83.4453
+2026-03-15 17:13:58[Epoch:009] [100/200] | Loss: 1.977 | Acc: 64.5625
+2026-03-15 17:14:30[Epoch:009] [150/200] | Loss: 2.408 | Acc: 55.7526
+2026-03-15 17:14:57[Epoch:009] [200/200] | Loss: 2.600 | Acc: 51.9082
+2026-03-15 17:14:57 extracting
+2026-03-15 17:15:01Extract Features: [1/151]	Time 3.121 (3.121)	Data 2.842 (2.842)	
+2026-03-15 17:15:17Extract Features: [100/151]	Time 0.276 (0.200)	Data 0.209 (0.126)	
+2026-03-15 17:15:29 extracting done 
+Mean AP: 71.4%
+CMC Scores:
+  top-1          87.2%
+  top-5          95.0%
+  top-10         96.8%
+{ 'Finished_epoch': 9, 'mAP': 71.3862%, rank1: 87%, 'best': 71.4944, 'at_epoch': 8, 'this_best': 0}
+2026-03-15 17:15:45
+Cost 0:38:19.568123
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:15:46 extracting
+2026-03-15 17:15:49Extract Features: [1/51]	Time 3.462 (3.462)	Data 2.989 (2.989)	
+2026-03-15 17:16:06 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 28.52511763572693
+2026-03-15 17:16:35 start dbscan clustering
+2026-03-15 17:16:37
+ Clustered into 572 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:16:44[Epoch:010] [001/200] | Loss: 0.234 | Acc: 95.7031
+2026-03-15 17:17:11[Epoch:010] [050/200] | Loss: 0.977 | Acc: 83.2031
+2026-03-15 17:17:39[Epoch:010] [100/200] | Loss: 2.042 | Acc: 63.4531
+2026-03-15 17:18:11[Epoch:010] [150/200] | Loss: 2.447 | Acc: 55.25
+2026-03-15 17:18:40[Epoch:010] [200/200] | Loss: 2.620 | Acc: 51.4297
+2026-03-15 17:18:40 extracting
+2026-03-15 17:18:43Extract Features: [1/151]	Time 3.014 (3.014)	Data 2.775 (2.775)	
+2026-03-15 17:18:59Extract Features: [100/151]	Time 0.222 (0.197)	Data 0.154 (0.124)	
+2026-03-15 17:19:12 extracting done 
+Mean AP: 73.3%
+CMC Scores:
+  top-1          88.5%
+  top-5          96.0%
+  top-10         97.6%
+{ 'Finished_epoch': 10, 'mAP': 73.3272%, rank1: 88%, 'best': 73.3272, 'at_epoch': 10, 'this_best': 1}
+2026-03-15 17:19:27
+Cost 0:42:01.664168
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:19:28 extracting
+2026-03-15 17:19:31Extract Features: [1/51]	Time 3.260 (3.260)	Data 2.953 (2.953)	
+2026-03-15 17:19:48 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 28.291890382766724
+2026-03-15 17:20:17 start dbscan clustering
+2026-03-15 17:20:18
+ Clustered into 575 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:20:26[Epoch:011] [001/200] | Loss: 0.214 | Acc: 97.2656
+2026-03-15 17:20:53[Epoch:011] [050/200] | Loss: 0.949 | Acc: 83.7188
+2026-03-15 17:21:21[Epoch:011] [100/200] | Loss: 1.987 | Acc: 64.0664
+2026-03-15 17:21:53[Epoch:011] [150/200] | Loss: 2.375 | Acc: 56.5755
+2026-03-15 17:22:20[Epoch:011] [200/200] | Loss: 2.573 | Acc: 52.5176
+2026-03-15 17:22:20 extracting
+2026-03-15 17:22:23Extract Features: [1/151]	Time 3.117 (3.117)	Data 2.861 (2.861)	
+2026-03-15 17:22:40Extract Features: [100/151]	Time 0.153 (0.199)	Data 0.087 (0.125)	
+2026-03-15 17:22:52 extracting done 
+Mean AP: 73.9%
+CMC Scores:
+  top-1          89.1%
+  top-5          95.7%
+  top-10         97.2%
+{ 'Finished_epoch': 11, 'mAP': 73.9295%, rank1: 89%, 'best': 73.9295, 'at_epoch': 11, 'this_best': 1}
+2026-03-15 17:23:07
+Cost 0:45:41.428394
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:23:08 extracting
+2026-03-15 17:23:11Extract Features: [1/51]	Time 3.451 (3.451)	Data 3.081 (3.081)	
+2026-03-15 17:23:28 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 27.414012670516968
+2026-03-15 17:23:56 start dbscan clustering
+2026-03-15 17:23:58
+ Clustered into 571 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:24:06[Epoch:012] [001/200] | Loss: 0.221 | Acc: 98.0469
+2026-03-15 17:24:33[Epoch:012] [050/200] | Loss: 1.005 | Acc: 82.7422
+2026-03-15 17:25:02[Epoch:012] [100/200] | Loss: 1.976 | Acc: 64.2227
+2026-03-15 17:25:35[Epoch:012] [150/200] | Loss: 2.371 | Acc: 56.5625
+2026-03-15 17:26:03[Epoch:012] [200/200] | Loss: 2.557 | Acc: 52.5879
+2026-03-15 17:26:03 extracting
+2026-03-15 17:26:06Extract Features: [1/151]	Time 3.064 (3.064)	Data 2.827 (2.827)	
+2026-03-15 17:26:24Extract Features: [100/151]	Time 0.207 (0.206)	Data 0.135 (0.132)	
+2026-03-15 17:26:35 extracting done 
+Mean AP: 74.7%
+CMC Scores:
+  top-1          88.7%
+  top-5          95.7%
+  top-10         97.4%
+{ 'Finished_epoch': 12, 'mAP': 74.6661%, rank1: 89%, 'best': 74.6661, 'at_epoch': 12, 'this_best': 1}
+2026-03-15 17:26:51
+Cost 0:49:25.830588
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:26:52 extracting
+2026-03-15 17:26:55Extract Features: [1/51]	Time 3.538 (3.538)	Data 3.097 (3.097)	
+2026-03-15 17:27:13 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 27.958407402038574
+2026-03-15 17:27:42 start dbscan clustering
+2026-03-15 17:27:44
+ Clustered into 575 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:27:54[Epoch:013] [001/200] | Loss: 0.191 | Acc: 98.8281
+2026-03-15 17:28:21[Epoch:013] [050/200] | Loss: 0.893 | Acc: 84.2734
+2026-03-15 17:28:48[Epoch:013] [100/200] | Loss: 1.919 | Acc: 65.2109
+2026-03-15 17:29:20[Epoch:013] [150/200] | Loss: 2.345 | Acc: 56.6771
+2026-03-15 17:29:48[Epoch:013] [200/200] | Loss: 2.529 | Acc: 52.8457
+2026-03-15 17:29:49 extracting
+2026-03-15 17:29:52Extract Features: [1/151]	Time 3.075 (3.075)	Data 2.774 (2.774)	
+2026-03-15 17:30:09Extract Features: [100/151]	Time 0.184 (0.199)	Data 0.104 (0.126)	
+2026-03-15 17:30:20 extracting done 
+Mean AP: 75.4%
+CMC Scores:
+  top-1          89.5%
+  top-5          96.2%
+  top-10         97.6%
+{ 'Finished_epoch': 13, 'mAP': 75.3815%, rank1: 89%, 'best': 75.3815, 'at_epoch': 13, 'this_best': 1}
+2026-03-15 17:30:38
+Cost 0:53:12.228506
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:30:38 extracting
+2026-03-15 17:30:42Extract Features: [1/51]	Time 3.454 (3.454)	Data 3.032 (3.032)	
+2026-03-15 17:30:59 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.483131170272827
+2026-03-15 17:31:30 start dbscan clustering
+2026-03-15 17:31:32
+ Clustered into 570 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:31:39[Epoch:014] [001/200] | Loss: 0.272 | Acc: 95.3125
+2026-03-15 17:32:07[Epoch:014] [050/200] | Loss: 0.944 | Acc: 83.5391
+2026-03-15 17:32:36[Epoch:014] [100/200] | Loss: 1.952 | Acc: 64.6875
+2026-03-15 17:33:08[Epoch:014] [150/200] | Loss: 2.336 | Acc: 56.8203
+2026-03-15 17:33:36[Epoch:014] [200/200] | Loss: 2.513 | Acc: 53.1309
+2026-03-15 17:33:36 extracting
+2026-03-15 17:33:39Extract Features: [1/151]	Time 3.016 (3.016)	Data 2.784 (2.784)	
+2026-03-15 17:33:55Extract Features: [100/151]	Time 0.212 (0.195)	Data 0.145 (0.123)	
+2026-03-15 17:34:07 extracting done 
+Mean AP: 75.9%
+CMC Scores:
+  top-1          89.1%
+  top-5          95.9%
+  top-10         97.3%
+{ 'Finished_epoch': 14, 'mAP': 75.8818%, rank1: 89%, 'best': 75.8818, 'at_epoch': 14, 'this_best': 1}
+2026-03-15 17:34:22
+Cost 0:56:56.283996
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:34:22 extracting
+2026-03-15 17:34:26Extract Features: [1/51]	Time 3.389 (3.389)	Data 2.928 (2.928)	
+2026-03-15 17:34:43 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 27.134106159210205
+2026-03-15 17:35:10 start dbscan clustering
+2026-03-15 17:35:12
+ Clustered into 576 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:35:20[Epoch:015] [001/200] | Loss: 0.142 | Acc: 98.4375
+2026-03-15 17:35:48[Epoch:015] [050/200] | Loss: 0.783 | Acc: 86.9609
+2026-03-15 17:36:16[Epoch:015] [100/200] | Loss: 1.795 | Acc: 67.6797
+2026-03-15 17:36:49[Epoch:015] [150/200] | Loss: 2.214 | Acc: 59.2682
+2026-03-15 17:37:17[Epoch:015] [200/200] | Loss: 2.401 | Acc: 55.5293
+2026-03-15 17:37:17 extracting
+2026-03-15 17:37:20Extract Features: [1/151]	Time 3.101 (3.101)	Data 2.854 (2.854)	
+2026-03-15 17:37:37Extract Features: [100/151]	Time 0.215 (0.200)	Data 0.142 (0.126)	
+2026-03-15 17:37:49 extracting done 
+Mean AP: 77.4%
+CMC Scores:
+  top-1          90.7%
+  top-5          96.4%
+  top-10         97.5%
+{ 'Finished_epoch': 15, 'mAP': 77.4472%, rank1: 91%, 'best': 77.4472, 'at_epoch': 15, 'this_best': 1}
+2026-03-15 17:38:06
+Cost 1:00:40.401803
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:38:07 extracting
+2026-03-15 17:38:10Extract Features: [1/51]	Time 3.571 (3.571)	Data 3.170 (3.170)	
+2026-03-15 17:38:28 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 27.615686655044556
+2026-03-15 17:38:56 start dbscan clustering
+2026-03-15 17:38:58
+ Clustered into 580 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:39:06[Epoch:016] [001/200] | Loss: 0.186 | Acc: 98.0469
+2026-03-15 17:39:34[Epoch:016] [050/200] | Loss: 0.754 | Acc: 86.875
+2026-03-15 17:40:02[Epoch:016] [100/200] | Loss: 1.789 | Acc: 67.7031
+2026-03-15 17:40:34[Epoch:016] [150/200] | Loss: 2.189 | Acc: 59.5573
+2026-03-15 17:41:02[Epoch:016] [200/200] | Loss: 2.378 | Acc: 55.8047
+2026-03-15 17:41:02 extracting
+2026-03-15 17:41:05Extract Features: [1/151]	Time 3.155 (3.155)	Data 2.808 (2.808)	
+2026-03-15 17:41:23Extract Features: [100/151]	Time 0.218 (0.212)	Data 0.150 (0.138)	
+2026-03-15 17:41:37 extracting done 
+Mean AP: 75.8%
+CMC Scores:
+  top-1          89.3%
+  top-5          96.0%
+  top-10         97.4%
+{ 'Finished_epoch': 16, 'mAP': 75.7637%, rank1: 89%, 'best': 77.4472, 'at_epoch': 15, 'this_best': 0}
+2026-03-15 17:41:52
+Cost 1:04:26.887394
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:41:53 extracting
+2026-03-15 17:41:56Extract Features: [1/51]	Time 3.487 (3.487)	Data 3.058 (3.058)	
+2026-03-15 17:42:14 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 28.057247161865234
+2026-03-15 17:42:42 start dbscan clustering
+2026-03-15 17:42:44
+ Clustered into 570 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:42:53[Epoch:017] [001/200] | Loss: 0.167 | Acc: 96.875
+2026-03-15 17:43:20[Epoch:017] [050/200] | Loss: 0.802 | Acc: 86.1797
+2026-03-15 17:43:48[Epoch:017] [100/200] | Loss: 1.777 | Acc: 66.9297
+2026-03-15 17:44:19[Epoch:017] [150/200] | Loss: 2.206 | Acc: 58.6953
+2026-03-15 17:44:46[Epoch:017] [200/200] | Loss: 2.378 | Acc: 55.1719
+2026-03-15 17:44:46 extracting
+2026-03-15 17:44:49Extract Features: [1/151]	Time 3.030 (3.030)	Data 2.798 (2.798)	
+2026-03-15 17:45:06Extract Features: [100/151]	Time 0.174 (0.196)	Data 0.106 (0.123)	
+2026-03-15 17:45:17 extracting done 
+Mean AP: 76.6%
+CMC Scores:
+  top-1          90.0%
+  top-5          96.4%
+  top-10         97.7%
+{ 'Finished_epoch': 17, 'mAP': 76.5863%, rank1: 90%, 'best': 77.4472, 'at_epoch': 15, 'this_best': 0}
+2026-03-15 17:45:32
+Cost 1:08:06.906271
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:45:33 extracting
+2026-03-15 17:45:36Extract Features: [1/51]	Time 3.391 (3.391)	Data 3.009 (3.009)	
+2026-03-15 17:45:53 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.42268967628479
+2026-03-15 17:46:24 start dbscan clustering
+2026-03-15 17:46:26
+ Clustered into 593 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:46:33[Epoch:018] [001/200] | Loss: 0.250 | Acc: 96.4844
+2026-03-15 17:47:00[Epoch:018] [050/200] | Loss: 0.743 | Acc: 86.9688
+2026-03-15 17:47:27[Epoch:018] [100/200] | Loss: 1.714 | Acc: 69.1133
+2026-03-15 17:48:00[Epoch:018] [150/200] | Loss: 2.148 | Acc: 60.013
+2026-03-15 17:48:28[Epoch:018] [200/200] | Loss: 2.322 | Acc: 56.4824
+2026-03-15 17:48:28 extracting
+2026-03-15 17:48:31Extract Features: [1/151]	Time 3.019 (3.019)	Data 2.780 (2.780)	
+2026-03-15 17:48:48Extract Features: [100/151]	Time 0.204 (0.197)	Data 0.137 (0.124)	
+2026-03-15 17:49:00 extracting done 
+Mean AP: 77.7%
+CMC Scores:
+  top-1          90.7%
+  top-5          96.5%
+  top-10         97.4%
+{ 'Finished_epoch': 18, 'mAP': 77.7338%, rank1: 91%, 'best': 77.7338, 'at_epoch': 18, 'this_best': 1}
+2026-03-15 17:49:17
+Cost 1:11:51.429687
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:49:17 extracting
+2026-03-15 17:49:21Extract Features: [1/51]	Time 3.377 (3.377)	Data 2.998 (2.998)	
+2026-03-15 17:49:38 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.187111139297485
+2026-03-15 17:50:08 start dbscan clustering
+2026-03-15 17:50:09
+ Clustered into 578 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:50:17[Epoch:019] [001/200] | Loss: 0.194 | Acc: 96.4844
+2026-03-15 17:50:43[Epoch:019] [050/200] | Loss: 0.829 | Acc: 85.1172
+2026-03-15 17:51:11[Epoch:019] [100/200] | Loss: 1.671 | Acc: 69.3516
+2026-03-15 17:51:42[Epoch:019] [150/200] | Loss: 2.098 | Acc: 60.6562
+2026-03-15 17:52:09[Epoch:019] [200/200] | Loss: 2.302 | Acc: 56.5059
+2026-03-15 17:52:09 extracting
+2026-03-15 17:52:12Extract Features: [1/151]	Time 3.061 (3.061)	Data 2.862 (2.862)	
+2026-03-15 17:52:29Extract Features: [100/151]	Time 0.199 (0.195)	Data 0.131 (0.123)	
+2026-03-15 17:52:40 extracting done 
+Mean AP: 77.6%
+CMC Scores:
+  top-1          90.7%
+  top-5          96.6%
+  top-10         97.7%
+{ 'Finished_epoch': 19, 'mAP': 77.6383%, rank1: 91%, 'best': 77.7338, 'at_epoch': 18, 'this_best': 0}
+2026-03-15 17:52:55
+Cost 1:15:29.993373
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:52:56 extracting
+2026-03-15 17:53:00Extract Features: [1/51]	Time 3.500 (3.500)	Data 3.044 (3.044)	
+2026-03-15 17:53:16 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 31.7850079536438
+2026-03-15 17:53:49 start dbscan clustering
+2026-03-15 17:53:51
+ Clustered into 575 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:53:59[Epoch:020] [001/200] | Loss: 0.141 | Acc: 97.2656
+2026-03-15 17:54:25[Epoch:020] [050/200] | Loss: 0.849 | Acc: 85.4766
+2026-03-15 17:54:54[Epoch:020] [100/200] | Loss: 1.738 | Acc: 68.2266
+2026-03-15 17:55:26[Epoch:020] [150/200] | Loss: 2.088 | Acc: 60.8047
+2026-03-15 17:55:53[Epoch:020] [200/200] | Loss: 2.300 | Acc: 56.6016
+2026-03-15 17:55:53 extracting
+2026-03-15 17:55:56Extract Features: [1/151]	Time 3.041 (3.041)	Data 2.773 (2.773)	
+2026-03-15 17:56:13Extract Features: [100/151]	Time 0.202 (0.200)	Data 0.135 (0.128)	
+2026-03-15 17:56:25 extracting done 
+Mean AP: 77.2%
+CMC Scores:
+  top-1          90.5%
+  top-5          96.4%
+  top-10         97.4%
+{ 'Finished_epoch': 20, 'mAP': 77.2447%, rank1: 90%, 'best': 77.7338, 'at_epoch': 18, 'this_best': 0}
+2026-03-15 17:56:40
+Cost 1:19:14.301175
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 17:56:40 extracting
+2026-03-15 17:56:44Extract Features: [1/51]	Time 3.453 (3.453)	Data 2.985 (2.985)	
+2026-03-15 17:57:01 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 27.783413887023926
+2026-03-15 17:57:29 start dbscan clustering
+2026-03-15 17:57:31
+ Clustered into 575 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 17:57:39[Epoch:021] [001/200] | Loss: 0.141 | Acc: 98.4375
+2026-03-15 17:58:06[Epoch:021] [050/200] | Loss: 0.825 | Acc: 85.9062
+2026-03-15 17:58:34[Epoch:021] [100/200] | Loss: 1.735 | Acc: 68.8906
+2026-03-15 17:59:05[Epoch:021] [150/200] | Loss: 2.148 | Acc: 60.5312
+2026-03-15 17:59:33[Epoch:021] [200/200] | Loss: 2.301 | Acc: 57.2422
+2026-03-15 17:59:33 extracting
+2026-03-15 17:59:36Extract Features: [1/151]	Time 3.217 (3.217)	Data 2.964 (2.964)	
+2026-03-15 17:59:53Extract Features: [100/151]	Time 0.223 (0.201)	Data 0.156 (0.128)	
+2026-03-15 18:00:06 extracting done 
+Mean AP: 77.0%
+CMC Scores:
+  top-1          90.1%
+  top-5          96.3%
+  top-10         97.6%
+{ 'Finished_epoch': 21, 'mAP': 76.9722%, rank1: 90%, 'best': 77.7338, 'at_epoch': 18, 'this_best': 0}
+2026-03-15 18:00:22
+Cost 1:22:56.213326
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:00:22 extracting
+2026-03-15 18:00:26Extract Features: [1/51]	Time 3.235 (3.235)	Data 2.933 (2.933)	
+2026-03-15 18:00:43 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.520500659942627
+2026-03-15 18:01:13 start dbscan clustering
+2026-03-15 18:01:15
+ Clustered into 575 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 18:01:24[Epoch:022] [001/200] | Loss: 0.115 | Acc: 98.4375
+2026-03-15 18:01:50[Epoch:022] [050/200] | Loss: 0.884 | Acc: 85.3203
+2026-03-15 18:02:16[Epoch:022] [100/200] | Loss: 1.691 | Acc: 69.2422
+2026-03-15 18:02:47[Epoch:022] [150/200] | Loss: 2.073 | Acc: 61.5417
+2026-03-15 18:03:14[Epoch:022] [200/200] | Loss: 2.219 | Acc: 58.0684
+2026-03-15 18:03:14 extracting
+2026-03-15 18:03:17Extract Features: [1/151]	Time 3.505 (3.505)	Data 3.211 (3.211)	
+2026-03-15 18:03:36Extract Features: [100/151]	Time 0.220 (0.224)	Data 0.148 (0.150)	
+2026-03-15 18:03:48 extracting done 
+Mean AP: 78.4%
+CMC Scores:
+  top-1          91.0%
+  top-5          96.7%
+  top-10         97.7%
+{ 'Finished_epoch': 22, 'mAP': 78.4474%, rank1: 91%, 'best': 78.4474, 'at_epoch': 22, 'this_best': 1}
+2026-03-15 18:04:04
+Cost 1:26:38.155245
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:04:04 extracting
+2026-03-15 18:04:08Extract Features: [1/51]	Time 3.412 (3.412)	Data 2.938 (2.938)	
+2026-03-15 18:04:25 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 31.24963092803955
+2026-03-15 18:04:57 start dbscan clustering
+2026-03-15 18:04:58
+ Clustered into 591 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 18:05:06[Epoch:023] [001/200] | Loss: 0.138 | Acc: 98.8281
+2026-03-15 18:05:33[Epoch:023] [050/200] | Loss: 0.754 | Acc: 86.7188
+2026-03-15 18:06:02[Epoch:023] [100/200] | Loss: 1.680 | Acc: 69.0703
+2026-03-15 18:06:34[Epoch:023] [150/200] | Loss: 2.047 | Acc: 61.8359
+2026-03-15 18:07:02[Epoch:023] [200/200] | Loss: 2.207 | Acc: 58.3047
+2026-03-15 18:07:02 extracting
+2026-03-15 18:07:05Extract Features: [1/151]	Time 3.022 (3.022)	Data 2.782 (2.782)	
+2026-03-15 18:07:23Extract Features: [100/151]	Time 0.214 (0.206)	Data 0.145 (0.133)	
+2026-03-15 18:07:34 extracting done 
+Mean AP: 78.3%
+CMC Scores:
+  top-1          91.1%
+  top-5          96.8%
+  top-10         97.5%
+{ 'Finished_epoch': 23, 'mAP': 78.3197%, rank1: 91%, 'best': 78.4474, 'at_epoch': 22, 'this_best': 0}
+2026-03-15 18:07:49
+Cost 1:30:24.006648
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:07:50 extracting
+2026-03-15 18:07:54Extract Features: [1/51]	Time 3.307 (3.307)	Data 2.956 (2.956)	
+2026-03-15 18:08:11 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 28.37974262237549
+2026-03-15 18:08:40 start dbscan clustering
+2026-03-15 18:08:42
+ Clustered into 582 classes 
+
+learning rate:  0.00035
+train v2--weight
+2026-03-15 18:08:50[Epoch:024] [001/200] | Loss: 0.115 | Acc: 98.4375
+2026-03-15 18:09:17[Epoch:024] [050/200] | Loss: 0.727 | Acc: 87.7031
+2026-03-15 18:09:45[Epoch:024] [100/200] | Loss: 1.592 | Acc: 70.4102
+2026-03-15 18:10:18[Epoch:024] [150/200] | Loss: 1.976 | Acc: 62.6276
+2026-03-15 18:10:45[Epoch:024] [200/200] | Loss: 2.144 | Acc: 59.2715
+2026-03-15 18:10:45 extracting
+2026-03-15 18:10:48Extract Features: [1/151]	Time 3.032 (3.032)	Data 2.797 (2.797)	
+2026-03-15 18:11:04Extract Features: [100/151]	Time 0.204 (0.195)	Data 0.131 (0.123)	
+2026-03-15 18:11:16 extracting done 
+Mean AP: 78.4%
+CMC Scores:
+  top-1          90.8%
+  top-5          96.3%
+  top-10         97.5%
+{ 'Finished_epoch': 24, 'mAP': 78.3781%, rank1: 91%, 'best': 78.4474, 'at_epoch': 22, 'this_best': 0}
+2026-03-15 18:11:31
+Cost 1:34:05.545655
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:11:32 extracting
+2026-03-15 18:11:35Extract Features: [1/51]	Time 3.223 (3.223)	Data 2.879 (2.879)	
+2026-03-15 18:11:52 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.72916531562805
+2026-03-15 18:12:23 start dbscan clustering
+2026-03-15 18:12:24
+ Clustered into 589 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:12:32[Epoch:025] [001/200] | Loss: 0.199 | Acc: 96.0938
+2026-03-15 18:13:00[Epoch:025] [050/200] | Loss: 0.638 | Acc: 88.5938
+2026-03-15 18:13:29[Epoch:025] [100/200] | Loss: 1.298 | Acc: 76.0703
+2026-03-15 18:14:00[Epoch:025] [150/200] | Loss: 1.573 | Acc: 70.6849
+2026-03-15 18:14:28[Epoch:025] [200/200] | Loss: 1.702 | Acc: 68.0898
+2026-03-15 18:14:28 extracting
+2026-03-15 18:14:31Extract Features: [1/151]	Time 3.073 (3.073)	Data 2.867 (2.867)	
+2026-03-15 18:14:48Extract Features: [100/151]	Time 0.192 (0.201)	Data 0.110 (0.129)	
+2026-03-15 18:15:00 extracting done 
+Mean AP: 83.3%
+CMC Scores:
+  top-1          93.3%
+  top-5          97.2%
+  top-10         98.0%
+{ 'Finished_epoch': 25, 'mAP': 83.3452%, rank1: 93%, 'best': 83.3452, 'at_epoch': 25, 'this_best': 1}
+2026-03-15 18:15:15
+Cost 1:37:49.873183
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:15:16 extracting
+2026-03-15 18:15:19Extract Features: [1/51]	Time 3.481 (3.481)	Data 3.012 (3.012)	
+2026-03-15 18:15:37 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 28.604206085205078
+2026-03-15 18:16:06 start dbscan clustering
+2026-03-15 18:16:08
+ Clustered into 605 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:16:15[Epoch:026] [001/200] | Loss: 0.104 | Acc: 98.4375
+2026-03-15 18:16:43[Epoch:026] [050/200] | Loss: 0.489 | Acc: 91.5234
+2026-03-15 18:17:11[Epoch:026] [100/200] | Loss: 1.075 | Acc: 80.4062
+2026-03-15 18:17:43[Epoch:026] [150/200] | Loss: 1.359 | Acc: 74.6302
+2026-03-15 18:18:12[Epoch:026] [200/200] | Loss: 1.490 | Acc: 71.8926
+2026-03-15 18:18:12 extracting
+2026-03-15 18:18:15Extract Features: [1/151]	Time 3.145 (3.145)	Data 2.888 (2.888)	
+2026-03-15 18:18:32Extract Features: [100/151]	Time 0.210 (0.205)	Data 0.143 (0.131)	
+2026-03-15 18:18:44 extracting done 
+Mean AP: 83.9%
+CMC Scores:
+  top-1          93.6%
+  top-5          97.2%
+  top-10         98.0%
+{ 'Finished_epoch': 26, 'mAP': 83.8785%, rank1: 94%, 'best': 83.8785, 'at_epoch': 26, 'this_best': 1}
+2026-03-15 18:19:00
+Cost 1:41:34.687763
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:19:01 extracting
+2026-03-15 18:19:04Extract Features: [1/51]	Time 3.494 (3.494)	Data 3.074 (3.074)	
+2026-03-15 18:19:22 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.35245108604431
+2026-03-15 18:19:52 start dbscan clustering
+2026-03-15 18:19:54
+ Clustered into 599 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:20:02[Epoch:027] [001/200] | Loss: 0.058 | Acc: 99.2188
+2026-03-15 18:20:29[Epoch:027] [050/200] | Loss: 0.398 | Acc: 93.2578
+2026-03-15 18:20:58[Epoch:027] [100/200] | Loss: 0.947 | Acc: 82.4492
+2026-03-15 18:21:31[Epoch:027] [150/200] | Loss: 1.257 | Acc: 76.3906
+2026-03-15 18:21:59[Epoch:027] [200/200] | Loss: 1.422 | Acc: 73.1172
+2026-03-15 18:21:59 extracting
+2026-03-15 18:22:02Extract Features: [1/151]	Time 3.095 (3.095)	Data 2.874 (2.874)	
+2026-03-15 18:22:19Extract Features: [100/151]	Time 0.225 (0.202)	Data 0.156 (0.130)	
+2026-03-15 18:22:31 extracting done 
+Mean AP: 84.1%
+CMC Scores:
+  top-1          93.7%
+  top-5          97.1%
+  top-10         98.2%
+{ 'Finished_epoch': 27, 'mAP': 84.1167%, rank1: 94%, 'best': 84.1167, 'at_epoch': 27, 'this_best': 1}
+2026-03-15 18:22:46
+Cost 1:45:21.065473
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:22:47 extracting
+2026-03-15 18:22:51Extract Features: [1/51]	Time 3.444 (3.444)	Data 2.975 (2.975)	
+2026-03-15 18:23:08 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 27.34304141998291
+2026-03-15 18:23:36 start dbscan clustering
+2026-03-15 18:23:37
+ Clustered into 605 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:23:45[Epoch:028] [001/200] | Loss: 0.126 | Acc: 98.0469
+2026-03-15 18:24:14[Epoch:028] [050/200] | Loss: 0.388 | Acc: 93.2344
+2026-03-15 18:24:42[Epoch:028] [100/200] | Loss: 0.959 | Acc: 82.6953
+2026-03-15 18:25:15[Epoch:028] [150/200] | Loss: 1.231 | Acc: 77.2526
+2026-03-15 18:25:43[Epoch:028] [200/200] | Loss: 1.387 | Acc: 73.877
+2026-03-15 18:25:43 extracting
+2026-03-15 18:25:46Extract Features: [1/151]	Time 3.101 (3.101)	Data 2.894 (2.894)	
+2026-03-15 18:26:03Extract Features: [100/151]	Time 0.207 (0.200)	Data 0.139 (0.128)	
+2026-03-15 18:26:15 extracting done 
+Mean AP: 84.5%
+CMC Scores:
+  top-1          93.7%
+  top-5          97.4%
+  top-10         98.3%
+{ 'Finished_epoch': 28, 'mAP': 84.4589%, rank1: 94%, 'best': 84.4589, 'at_epoch': 28, 'this_best': 1}
+2026-03-15 18:26:31
+Cost 1:49:05.792576
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:26:32 extracting
+2026-03-15 18:26:36Extract Features: [1/51]	Time 3.697 (3.697)	Data 3.220 (3.220)	
+2026-03-15 18:26:53 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 32.587475299835205
+2026-03-15 18:27:27 start dbscan clustering
+2026-03-15 18:27:28
+ Clustered into 605 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:27:37[Epoch:029] [001/200] | Loss: 0.071 | Acc: 98.4375
+2026-03-15 18:28:05[Epoch:029] [050/200] | Loss: 0.384 | Acc: 93.0078
+2026-03-15 18:28:33[Epoch:029] [100/200] | Loss: 0.902 | Acc: 82.7969
+2026-03-15 18:29:05[Epoch:029] [150/200] | Loss: 1.158 | Acc: 77.7214
+2026-03-15 18:29:33[Epoch:029] [200/200] | Loss: 1.303 | Acc: 74.918
+2026-03-15 18:29:33 extracting
+2026-03-15 18:29:36Extract Features: [1/151]	Time 3.116 (3.116)	Data 2.876 (2.876)	
+2026-03-15 18:29:54Extract Features: [100/151]	Time 0.249 (0.214)	Data 0.180 (0.139)	
+2026-03-15 18:30:06 extracting done 
+Mean AP: 84.6%
+CMC Scores:
+  top-1          93.5%
+  top-5          97.2%
+  top-10         98.3%
+{ 'Finished_epoch': 29, 'mAP': 84.5565%, rank1: 94%, 'best': 84.5565, 'at_epoch': 29, 'this_best': 1}
+2026-03-15 18:30:22
+Cost 1:52:57.039483
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:30:23 extracting
+2026-03-15 18:30:27Extract Features: [1/51]	Time 3.464 (3.464)	Data 3.087 (3.087)	
+2026-03-15 18:30:44 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.207520961761475
+2026-03-15 18:31:15 start dbscan clustering
+2026-03-15 18:31:17
+ Clustered into 606 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:31:25[Epoch:030] [001/200] | Loss: 0.053 | Acc: 99.6094
+2026-03-15 18:31:52[Epoch:030] [050/200] | Loss: 0.414 | Acc: 92.6562
+2026-03-15 18:32:20[Epoch:030] [100/200] | Loss: 0.907 | Acc: 82.9766
+2026-03-15 18:32:52[Epoch:030] [150/200] | Loss: 1.163 | Acc: 78.0339
+2026-03-15 18:33:19[Epoch:030] [200/200] | Loss: 1.314 | Acc: 75.0918
+2026-03-15 18:33:19 extracting
+2026-03-15 18:33:22Extract Features: [1/151]	Time 3.106 (3.106)	Data 2.887 (2.887)	
+2026-03-15 18:33:40Extract Features: [100/151]	Time 0.255 (0.204)	Data 0.148 (0.131)	
+2026-03-15 18:33:51 extracting done 
+Mean AP: 84.7%
+CMC Scores:
+  top-1          93.8%
+  top-5          97.2%
+  top-10         98.3%
+{ 'Finished_epoch': 30, 'mAP': 84.664%, rank1: 94%, 'best': 84.664, 'at_epoch': 30, 'this_best': 1}
+2026-03-15 18:34:07
+Cost 1:56:41.213589
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:34:07 extracting
+2026-03-15 18:34:11Extract Features: [1/51]	Time 3.280 (3.280)	Data 2.973 (2.973)	
+2026-03-15 18:34:27 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 32.179036140441895
+2026-03-15 18:35:01 start dbscan clustering
+2026-03-15 18:35:03
+ Clustered into 598 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:35:10[Epoch:031] [001/200] | Loss: 0.104 | Acc: 98.4375
+2026-03-15 18:35:37[Epoch:031] [050/200] | Loss: 0.336 | Acc: 93.9688
+2026-03-15 18:36:05[Epoch:031] [100/200] | Loss: 0.866 | Acc: 83.5664
+2026-03-15 18:36:37[Epoch:031] [150/200] | Loss: 1.114 | Acc: 78.8984
+2026-03-15 18:37:04[Epoch:031] [200/200] | Loss: 1.260 | Acc: 76.1621
+2026-03-15 18:37:04 extracting
+2026-03-15 18:37:07Extract Features: [1/151]	Time 2.976 (2.976)	Data 2.744 (2.744)	
+2026-03-15 18:37:24Extract Features: [100/151]	Time 0.201 (0.196)	Data 0.131 (0.123)	
+2026-03-15 18:37:35 extracting done 
+Mean AP: 84.6%
+CMC Scores:
+  top-1          93.8%
+  top-5          97.2%
+  top-10         98.0%
+{ 'Finished_epoch': 31, 'mAP': 84.6129%, rank1: 94%, 'best': 84.664, 'at_epoch': 30, 'this_best': 0}
+2026-03-15 18:37:50
+Cost 2:00:24.977300
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:37:51 extracting
+2026-03-15 18:37:54Extract Features: [1/51]	Time 3.270 (3.270)	Data 2.914 (2.914)	
+2026-03-15 18:38:11 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 34.03799867630005
+2026-03-15 18:38:45 start dbscan clustering
+2026-03-15 18:38:47
+ Clustered into 602 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:38:54[Epoch:032] [001/200] | Loss: 0.075 | Acc: 98.8281
+2026-03-15 18:39:21[Epoch:032] [050/200] | Loss: 0.358 | Acc: 93.8828
+2026-03-15 18:39:48[Epoch:032] [100/200] | Loss: 0.865 | Acc: 84.1289
+2026-03-15 18:40:20[Epoch:032] [150/200] | Loss: 1.141 | Acc: 78.6901
+2026-03-15 18:40:47[Epoch:032] [200/200] | Loss: 1.251 | Acc: 76.6484
+2026-03-15 18:40:47 extracting
+2026-03-15 18:40:50Extract Features: [1/151]	Time 3.056 (3.056)	Data 2.812 (2.812)	
+2026-03-15 18:41:06Extract Features: [100/151]	Time 0.180 (0.193)	Data 0.108 (0.120)	
+2026-03-15 18:41:18 extracting done 
+Mean AP: 85.0%
+CMC Scores:
+  top-1          94.0%
+  top-5          97.3%
+  top-10         98.2%
+{ 'Finished_epoch': 32, 'mAP': 84.9891%, rank1: 94%, 'best': 84.9891, 'at_epoch': 32, 'this_best': 1}
+2026-03-15 18:41:33
+Cost 2:04:07.857179
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:41:34 extracting
+2026-03-15 18:41:37Extract Features: [1/51]	Time 3.554 (3.554)	Data 3.211 (3.211)	
+2026-03-15 18:41:55 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 31.130078077316284
+2026-03-15 18:42:26 start dbscan clustering
+2026-03-15 18:42:28
+ Clustered into 606 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:42:35[Epoch:033] [001/200] | Loss: 0.092 | Acc: 97.6562
+2026-03-15 18:43:02[Epoch:033] [050/200] | Loss: 0.382 | Acc: 93.4219
+2026-03-15 18:43:30[Epoch:033] [100/200] | Loss: 0.815 | Acc: 84.8633
+2026-03-15 18:44:02[Epoch:033] [150/200] | Loss: 1.077 | Acc: 79.6536
+2026-03-15 18:44:30[Epoch:033] [200/200] | Loss: 1.207 | Acc: 77.1055
+2026-03-15 18:44:30 extracting
+2026-03-15 18:44:33Extract Features: [1/151]	Time 3.104 (3.104)	Data 2.810 (2.810)	
+2026-03-15 18:44:51Extract Features: [100/151]	Time 0.214 (0.218)	Data 0.144 (0.144)	
+2026-03-15 18:45:03 extracting done 
+Mean AP: 85.1%
+CMC Scores:
+  top-1          94.1%
+  top-5          97.5%
+  top-10         98.3%
+{ 'Finished_epoch': 33, 'mAP': 85.0591%, rank1: 94%, 'best': 85.0591, 'at_epoch': 33, 'this_best': 1}
+2026-03-15 18:45:21
+Cost 2:07:55.319278
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:45:21 extracting
+2026-03-15 18:45:25Extract Features: [1/51]	Time 3.440 (3.440)	Data 2.978 (2.978)	
+2026-03-15 18:45:42 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.98856258392334
+2026-03-15 18:46:13 start dbscan clustering
+2026-03-15 18:46:15
+ Clustered into 603 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:46:22[Epoch:034] [001/200] | Loss: 0.103 | Acc: 97.2656
+2026-03-15 18:46:49[Epoch:034] [050/200] | Loss: 0.324 | Acc: 94.3984
+2026-03-15 18:47:16[Epoch:034] [100/200] | Loss: 0.807 | Acc: 85.3125
+2026-03-15 18:47:48[Epoch:034] [150/200] | Loss: 1.069 | Acc: 80.1589
+2026-03-15 18:48:15[Epoch:034] [200/200] | Loss: 1.209 | Acc: 77.3301
+2026-03-15 18:48:16 extracting
+2026-03-15 18:48:19Extract Features: [1/151]	Time 3.046 (3.046)	Data 2.783 (2.783)	
+2026-03-15 18:48:35Extract Features: [100/151]	Time 0.203 (0.197)	Data 0.135 (0.124)	
+2026-03-15 18:48:47 extracting done 
+Mean AP: 85.0%
+CMC Scores:
+  top-1          94.0%
+  top-5          97.4%
+  top-10         98.3%
+{ 'Finished_epoch': 34, 'mAP': 84.9785%, rank1: 94%, 'best': 85.0591, 'at_epoch': 33, 'this_best': 0}
+2026-03-15 18:49:02
+Cost 2:11:36.504440
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:49:03 extracting
+2026-03-15 18:49:06Extract Features: [1/51]	Time 3.314 (3.314)	Data 2.931 (2.931)	
+2026-03-15 18:49:23 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.68126344680786
+2026-03-15 18:49:54 start dbscan clustering
+2026-03-15 18:49:56
+ Clustered into 603 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:50:04[Epoch:035] [001/200] | Loss: 0.064 | Acc: 99.2188
+2026-03-15 18:50:31[Epoch:035] [050/200] | Loss: 0.309 | Acc: 94.7812
+2026-03-15 18:50:59[Epoch:035] [100/200] | Loss: 0.763 | Acc: 86.3828
+2026-03-15 18:51:31[Epoch:035] [150/200] | Loss: 1.034 | Acc: 81.1458
+2026-03-15 18:51:58[Epoch:035] [200/200] | Loss: 1.172 | Acc: 78.3672
+2026-03-15 18:51:58 extracting
+2026-03-15 18:52:01Extract Features: [1/151]	Time 3.068 (3.068)	Data 2.832 (2.832)	
+2026-03-15 18:52:17Extract Features: [100/151]	Time 0.210 (0.193)	Data 0.139 (0.120)	
+2026-03-15 18:52:28 extracting done 
+Mean AP: 85.3%
+CMC Scores:
+  top-1          94.2%
+  top-5          97.4%
+  top-10         98.4%
+{ 'Finished_epoch': 35, 'mAP': 85.269%, rank1: 94%, 'best': 85.269, 'at_epoch': 35, 'this_best': 1}
+2026-03-15 18:52:45
+Cost 2:15:19.403557
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:52:45 extracting
+2026-03-15 18:52:49Extract Features: [1/51]	Time 3.405 (3.405)	Data 3.059 (3.059)	
+2026-03-15 18:53:05 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.877331018447876
+2026-03-15 18:53:35 start dbscan clustering
+2026-03-15 18:53:37
+ Clustered into 603 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:53:45[Epoch:036] [001/200] | Loss: 0.057 | Acc: 99.6094
+2026-03-15 18:54:12[Epoch:036] [050/200] | Loss: 0.349 | Acc: 93.8438
+2026-03-15 18:54:40[Epoch:036] [100/200] | Loss: 0.803 | Acc: 85.2812
+2026-03-15 18:55:12[Epoch:036] [150/200] | Loss: 1.034 | Acc: 80.8255
+2026-03-15 18:55:39[Epoch:036] [200/200] | Loss: 1.160 | Acc: 78.375
+2026-03-15 18:55:39 extracting
+2026-03-15 18:55:42Extract Features: [1/151]	Time 3.008 (3.008)	Data 2.778 (2.778)	
+2026-03-15 18:55:59Extract Features: [100/151]	Time 0.171 (0.200)	Data 0.104 (0.126)	
+2026-03-15 18:56:11 extracting done 
+Mean AP: 85.5%
+CMC Scores:
+  top-1          94.4%
+  top-5          97.4%
+  top-10         98.3%
+{ 'Finished_epoch': 36, 'mAP': 85.5337%, rank1: 94%, 'best': 85.5337, 'at_epoch': 36, 'this_best': 1}
+2026-03-15 18:56:25
+Cost 2:18:59.766292
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 18:56:26 extracting
+2026-03-15 18:56:30Extract Features: [1/51]	Time 3.453 (3.453)	Data 2.979 (2.979)	
+2026-03-15 18:56:46 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.217959880828857
+2026-03-15 18:57:17 start dbscan clustering
+2026-03-15 18:57:19
+ Clustered into 609 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 18:57:27[Epoch:037] [001/200] | Loss: 0.107 | Acc: 97.6562
+2026-03-15 18:57:54[Epoch:037] [050/200] | Loss: 0.296 | Acc: 94.75
+2026-03-15 18:58:21[Epoch:037] [100/200] | Loss: 0.736 | Acc: 86.5078
+2026-03-15 18:58:49[Epoch:037] [150/200] | Loss: 0.991 | Acc: 81.5833
+2026-03-15 18:59:20[Epoch:037] [200/200] | Loss: 1.130 | Acc: 78.6641
+2026-03-15 18:59:20 extracting
+2026-03-15 18:59:23Extract Features: [1/151]	Time 3.114 (3.114)	Data 2.815 (2.815)	
+2026-03-15 18:59:40Extract Features: [100/151]	Time 0.224 (0.199)	Data 0.156 (0.127)	
+2026-03-15 18:59:51 extracting done 
+Mean AP: 85.5%
+CMC Scores:
+  top-1          94.0%
+  top-5          97.3%
+  top-10         98.2%
+{ 'Finished_epoch': 37, 'mAP': 85.4872%, rank1: 94%, 'best': 85.5337, 'at_epoch': 36, 'this_best': 0}
+2026-03-15 19:00:07
+Cost 2:22:41.351429
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:00:07 extracting
+2026-03-15 19:00:11Extract Features: [1/51]	Time 3.403 (3.403)	Data 2.933 (2.933)	
+2026-03-15 19:00:28 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 34.00736165046692
+2026-03-15 19:01:02 start dbscan clustering
+2026-03-15 19:01:04
+ Clustered into 606 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:01:12[Epoch:038] [001/200] | Loss: 0.046 | Acc: 98.4375
+2026-03-15 19:01:39[Epoch:038] [050/200] | Loss: 0.282 | Acc: 94.9688
+2026-03-15 19:02:06[Epoch:038] [100/200] | Loss: 0.728 | Acc: 86.6406
+2026-03-15 19:02:38[Epoch:038] [150/200] | Loss: 0.961 | Acc: 82.0833
+2026-03-15 19:03:05[Epoch:038] [200/200] | Loss: 1.081 | Acc: 79.7051
+2026-03-15 19:03:05 extracting
+2026-03-15 19:03:08Extract Features: [1/151]	Time 3.082 (3.082)	Data 2.823 (2.823)	
+2026-03-15 19:03:25Extract Features: [100/151]	Time 0.178 (0.195)	Data 0.109 (0.123)	
+2026-03-15 19:03:36 extracting done 
+Mean AP: 85.4%
+CMC Scores:
+  top-1          94.0%
+  top-5          97.3%
+  top-10         98.2%
+{ 'Finished_epoch': 38, 'mAP': 85.3577%, rank1: 94%, 'best': 85.5337, 'at_epoch': 36, 'this_best': 0}
+2026-03-15 19:03:51
+Cost 2:26:25.719249
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:03:52 extracting
+2026-03-15 19:03:55Extract Features: [1/51]	Time 3.385 (3.385)	Data 2.985 (2.985)	
+2026-03-15 19:04:12 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.902160167694092
+2026-03-15 19:04:43 start dbscan clustering
+2026-03-15 19:04:44
+ Clustered into 609 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:04:53[Epoch:039] [001/200] | Loss: 0.056 | Acc: 99.2188
+2026-03-15 19:05:19[Epoch:039] [050/200] | Loss: 0.277 | Acc: 95.3125
+2026-03-15 19:05:47[Epoch:039] [100/200] | Loss: 0.745 | Acc: 86.3125
+2026-03-15 19:06:15[Epoch:039] [150/200] | Loss: 0.995 | Acc: 81.3438
+2026-03-15 19:06:47[Epoch:039] [200/200] | Loss: 1.101 | Acc: 79.2441
+2026-03-15 19:06:47 extracting
+2026-03-15 19:06:50Extract Features: [1/151]	Time 3.116 (3.116)	Data 2.874 (2.874)	
+2026-03-15 19:07:07Extract Features: [100/151]	Time 0.215 (0.205)	Data 0.147 (0.130)	
+2026-03-15 19:07:19 extracting done 
+Mean AP: 85.3%
+CMC Scores:
+  top-1          94.0%
+  top-5          97.5%
+  top-10         98.2%
+{ 'Finished_epoch': 39, 'mAP': 85.3487%, rank1: 94%, 'best': 85.5337, 'at_epoch': 36, 'this_best': 0}
+2026-03-15 19:07:34
+Cost 2:30:08.487400
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:07:35 extracting
+2026-03-15 19:07:38Extract Features: [1/51]	Time 3.373 (3.373)	Data 2.979 (2.979)	
+2026-03-15 19:07:55 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 34.231929063797
+2026-03-15 19:08:29 start dbscan clustering
+2026-03-15 19:08:31
+ Clustered into 610 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:08:39[Epoch:040] [001/200] | Loss: 0.132 | Acc: 96.875
+2026-03-15 19:09:06[Epoch:040] [050/200] | Loss: 0.241 | Acc: 95.3359
+2026-03-15 19:09:34[Epoch:040] [100/200] | Loss: 0.662 | Acc: 87.8672
+2026-03-15 19:10:02[Epoch:040] [150/200] | Loss: 0.891 | Acc: 83.25
+2026-03-15 19:10:33[Epoch:040] [200/200] | Loss: 1.030 | Acc: 80.6719
+2026-03-15 19:10:33 extracting
+2026-03-15 19:10:36Extract Features: [1/151]	Time 3.169 (3.169)	Data 2.965 (2.965)	
+2026-03-15 19:10:53Extract Features: [100/151]	Time 0.208 (0.198)	Data 0.142 (0.126)	
+2026-03-15 19:11:04 extracting done 
+Mean AP: 85.4%
+CMC Scores:
+  top-1          94.0%
+  top-5          97.3%
+  top-10         98.2%
+{ 'Finished_epoch': 40, 'mAP': 85.3853%, rank1: 94%, 'best': 85.5337, 'at_epoch': 36, 'this_best': 0}
+2026-03-15 19:11:19
+Cost 2:33:53.209737
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:11:19 extracting
+2026-03-15 19:11:23Extract Features: [1/51]	Time 3.430 (3.430)	Data 2.949 (2.949)	
+2026-03-15 19:11:40 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 35.55306363105774
+2026-03-15 19:12:16 start dbscan clustering
+2026-03-15 19:12:17
+ Clustered into 607 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:12:25[Epoch:041] [001/200] | Loss: 0.070 | Acc: 98.4375
+2026-03-15 19:12:52[Epoch:041] [050/200] | Loss: 0.244 | Acc: 95.4844
+2026-03-15 19:13:20[Epoch:041] [100/200] | Loss: 0.686 | Acc: 87.6523
+2026-03-15 19:13:52[Epoch:041] [150/200] | Loss: 0.933 | Acc: 82.8854
+2026-03-15 19:14:19[Epoch:041] [200/200] | Loss: 1.062 | Acc: 80.2754
+2026-03-15 19:14:19 extracting
+2026-03-15 19:14:22Extract Features: [1/151]	Time 3.071 (3.071)	Data 2.831 (2.831)	
+2026-03-15 19:14:39Extract Features: [100/151]	Time 0.264 (0.198)	Data 0.158 (0.125)	
+2026-03-15 19:14:50 extracting done 
+Mean AP: 85.3%
+CMC Scores:
+  top-1          94.1%
+  top-5          97.2%
+  top-10         98.1%
+{ 'Finished_epoch': 41, 'mAP': 85.3471%, rank1: 94%, 'best': 85.5337, 'at_epoch': 36, 'this_best': 0}
+2026-03-15 19:15:05
+Cost 2:37:39.870038
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:15:06 extracting
+2026-03-15 19:15:09Extract Features: [1/51]	Time 3.288 (3.288)	Data 2.925 (2.925)	
+2026-03-15 19:15:26 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 31.738041400909424
+2026-03-15 19:15:58 start dbscan clustering
+2026-03-15 19:16:00
+ Clustered into 608 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:16:07[Epoch:042] [001/200] | Loss: 0.065 | Acc: 100.0
+2026-03-15 19:16:33[Epoch:042] [050/200] | Loss: 0.254 | Acc: 95.5703
+2026-03-15 19:17:01[Epoch:042] [100/200] | Loss: 0.695 | Acc: 87.1992
+2026-03-15 19:17:28[Epoch:042] [150/200] | Loss: 0.918 | Acc: 83.1745
+2026-03-15 19:18:00[Epoch:042] [200/200] | Loss: 1.011 | Acc: 81.3379
+2026-03-15 19:18:00 extracting
+2026-03-15 19:18:03Extract Features: [1/151]	Time 3.074 (3.074)	Data 2.826 (2.826)	
+2026-03-15 19:18:20Extract Features: [100/151]	Time 0.240 (0.200)	Data 0.171 (0.127)	
+2026-03-15 19:18:31 extracting done 
+Mean AP: 85.3%
+CMC Scores:
+  top-1          94.0%
+  top-5          97.1%
+  top-10         97.9%
+{ 'Finished_epoch': 42, 'mAP': 85.3203%, rank1: 94%, 'best': 85.5337, 'at_epoch': 36, 'this_best': 0}
+2026-03-15 19:18:46
+Cost 2:41:20.935485
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:18:47 extracting
+2026-03-15 19:18:50Extract Features: [1/51]	Time 3.366 (3.366)	Data 2.950 (2.950)	
+2026-03-15 19:19:07 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 36.627928495407104
+2026-03-15 19:19:44 start dbscan clustering
+2026-03-15 19:19:46
+ Clustered into 604 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:19:53[Epoch:043] [001/200] | Loss: 0.057 | Acc: 99.2188
+2026-03-15 19:20:20[Epoch:043] [050/200] | Loss: 0.199 | Acc: 96.5625
+2026-03-15 19:20:48[Epoch:043] [100/200] | Loss: 0.588 | Acc: 89.2109
+2026-03-15 19:21:20[Epoch:043] [150/200] | Loss: 0.847 | Acc: 84.3021
+2026-03-15 19:21:47[Epoch:043] [200/200] | Loss: 0.992 | Acc: 81.4668
+2026-03-15 19:21:47 extracting
+2026-03-15 19:21:50Extract Features: [1/151]	Time 3.068 (3.068)	Data 2.820 (2.820)	
+2026-03-15 19:22:07Extract Features: [100/151]	Time 0.206 (0.198)	Data 0.134 (0.126)	
+2026-03-15 19:22:18 extracting done 
+Mean AP: 85.6%
+CMC Scores:
+  top-1          94.3%
+  top-5          97.2%
+  top-10         98.2%
+{ 'Finished_epoch': 43, 'mAP': 85.6034%, rank1: 94%, 'best': 85.6034, 'at_epoch': 43, 'this_best': 1}
+2026-03-15 19:22:33
+Cost 2:45:07.849355
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:22:34 extracting
+2026-03-15 19:22:37Extract Features: [1/51]	Time 3.366 (3.366)	Data 2.973 (2.973)	
+2026-03-15 19:22:54 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 32.74430537223816
+2026-03-15 19:23:27 start dbscan clustering
+2026-03-15 19:23:28
+ Clustered into 608 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:23:36[Epoch:044] [001/200] | Loss: 0.048 | Acc: 99.6094
+2026-03-15 19:24:04[Epoch:044] [050/200] | Loss: 0.253 | Acc: 95.5391
+2026-03-15 19:24:32[Epoch:044] [100/200] | Loss: 0.636 | Acc: 88.4375
+2026-03-15 19:25:00[Epoch:044] [150/200] | Loss: 0.883 | Acc: 83.638
+2026-03-15 19:25:32[Epoch:044] [200/200] | Loss: 1.018 | Acc: 81.0098
+2026-03-15 19:25:32 extracting
+2026-03-15 19:25:36Extract Features: [1/151]	Time 3.146 (3.146)	Data 2.802 (2.802)	
+2026-03-15 19:25:53Extract Features: [100/151]	Time 0.218 (0.209)	Data 0.146 (0.134)	
+2026-03-15 19:26:05 extracting done 
+Mean AP: 85.6%
+CMC Scores:
+  top-1          93.9%
+  top-5          97.4%
+  top-10         98.2%
+{ 'Finished_epoch': 44, 'mAP': 85.5881%, rank1: 94%, 'best': 85.6034, 'at_epoch': 43, 'this_best': 0}
+2026-03-15 19:26:20
+Cost 2:48:54.242605
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:26:20 extracting
+2026-03-15 19:26:24Extract Features: [1/51]	Time 3.222 (3.222)	Data 2.920 (2.920)	
+2026-03-15 19:26:40 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.19413733482361
+2026-03-15 19:27:10 start dbscan clustering
+2026-03-15 19:27:12
+ Clustered into 607 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:27:19[Epoch:045] [001/200] | Loss: 0.059 | Acc: 99.2188
+2026-03-15 19:27:46[Epoch:045] [050/200] | Loss: 0.251 | Acc: 95.8984
+2026-03-15 19:28:14[Epoch:045] [100/200] | Loss: 0.654 | Acc: 88.5352
+2026-03-15 19:28:46[Epoch:045] [150/200] | Loss: 0.896 | Acc: 83.7865
+2026-03-15 19:29:13[Epoch:045] [200/200] | Loss: 1.009 | Acc: 81.3867
+2026-03-15 19:29:13 extracting
+2026-03-15 19:29:16Extract Features: [1/151]	Time 3.043 (3.043)	Data 2.800 (2.800)	
+2026-03-15 19:29:33Extract Features: [100/151]	Time 0.219 (0.197)	Data 0.147 (0.122)	
+2026-03-15 19:29:44 extracting done 
+Mean AP: 85.4%
+CMC Scores:
+  top-1          94.1%
+  top-5          97.3%
+  top-10         98.1%
+{ 'Finished_epoch': 45, 'mAP': 85.3692%, rank1: 94%, 'best': 85.6034, 'at_epoch': 43, 'this_best': 0}
+2026-03-15 19:30:00
+Cost 2:52:35.093160
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:30:01 extracting
+2026-03-15 19:30:05Extract Features: [1/51]	Time 3.375 (3.375)	Data 2.988 (2.988)	
+2026-03-15 19:30:21 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 33.214850425720215
+2026-03-15 19:30:55 start dbscan clustering
+2026-03-15 19:30:57
+ Clustered into 608 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:31:04[Epoch:046] [001/200] | Loss: 0.039 | Acc: 100.0
+2026-03-15 19:31:32[Epoch:046] [050/200] | Loss: 0.227 | Acc: 96.0859
+2026-03-15 19:32:00[Epoch:046] [100/200] | Loss: 0.580 | Acc: 89.5
+2026-03-15 19:32:28[Epoch:046] [150/200] | Loss: 0.805 | Acc: 85.0807
+2026-03-15 19:32:59[Epoch:046] [200/200] | Loss: 0.954 | Acc: 82.1934
+2026-03-15 19:32:59 extracting
+2026-03-15 19:33:02Extract Features: [1/151]	Time 3.116 (3.116)	Data 2.852 (2.852)	
+2026-03-15 19:33:19Extract Features: [100/151]	Time 0.234 (0.199)	Data 0.161 (0.125)	
+2026-03-15 19:33:30 extracting done 
+Mean AP: 85.7%
+CMC Scores:
+  top-1          93.8%
+  top-5          97.3%
+  top-10         98.1%
+{ 'Finished_epoch': 46, 'mAP': 85.7014%, rank1: 94%, 'best': 85.7014, 'at_epoch': 46, 'this_best': 1}
+2026-03-15 19:33:46
+Cost 2:56:20.395192
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:33:46 extracting
+2026-03-15 19:33:50Extract Features: [1/51]	Time 3.414 (3.414)	Data 2.934 (2.934)	
+2026-03-15 19:34:07 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.865546941757202
+2026-03-15 19:34:39 start dbscan clustering
+2026-03-15 19:34:40
+ Clustered into 607 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:34:48[Epoch:047] [001/200] | Loss: 0.019 | Acc: 100.0
+2026-03-15 19:35:15[Epoch:047] [050/200] | Loss: 0.226 | Acc: 95.9219
+2026-03-15 19:35:43[Epoch:047] [100/200] | Loss: 0.602 | Acc: 89.1875
+2026-03-15 19:36:14[Epoch:047] [150/200] | Loss: 0.826 | Acc: 84.875
+2026-03-15 19:36:42[Epoch:047] [200/200] | Loss: 0.945 | Acc: 82.5078
+2026-03-15 19:36:43 extracting
+2026-03-15 19:36:46Extract Features: [1/151]	Time 3.100 (3.100)	Data 2.788 (2.788)	
+2026-03-15 19:37:02Extract Features: [100/151]	Time 0.223 (0.195)	Data 0.155 (0.122)	
+2026-03-15 19:37:14 extracting done 
+Mean AP: 85.7%
+CMC Scores:
+  top-1          94.0%
+  top-5          97.5%
+  top-10         98.3%
+{ 'Finished_epoch': 47, 'mAP': 85.6623%, rank1: 94%, 'best': 85.7014, 'at_epoch': 46, 'this_best': 0}
+2026-03-15 19:37:29
+Cost 3:00:03.705017
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:37:30 extracting
+2026-03-15 19:37:33Extract Features: [1/51]	Time 3.368 (3.368)	Data 2.935 (2.935)	
+2026-03-15 19:37:50 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 23.202452421188354
+2026-03-15 19:38:14 start dbscan clustering
+2026-03-15 19:38:15
+ Clustered into 609 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:38:23[Epoch:048] [001/200] | Loss: 0.034 | Acc: 99.6094
+2026-03-15 19:38:50[Epoch:048] [050/200] | Loss: 0.221 | Acc: 96.3828
+2026-03-15 19:39:18[Epoch:048] [100/200] | Loss: 0.571 | Acc: 90.1562
+2026-03-15 19:39:46[Epoch:048] [150/200] | Loss: 0.791 | Acc: 85.612
+2026-03-15 19:40:16[Epoch:048] [200/200] | Loss: 0.912 | Acc: 83.1484
+2026-03-15 19:40:16 extracting
+2026-03-15 19:40:20Extract Features: [1/151]	Time 3.173 (3.173)	Data 2.865 (2.865)	
+2026-03-15 19:40:36Extract Features: [100/151]	Time 0.235 (0.198)	Data 0.167 (0.125)	
+2026-03-15 19:40:47 extracting done 
+Mean AP: 85.8%
+CMC Scores:
+  top-1          94.0%
+  top-5          97.5%
+  top-10         98.2%
+{ 'Finished_epoch': 48, 'mAP': 85.823%, rank1: 94%, 'best': 85.823, 'at_epoch': 48, 'this_best': 1}
+2026-03-15 19:41:05
+Cost 3:03:39.302158
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:41:05 extracting
+2026-03-15 19:41:09Extract Features: [1/51]	Time 3.359 (3.359)	Data 2.967 (2.967)	
+2026-03-15 19:41:25 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 26.67257332801819
+2026-03-15 19:41:52 start dbscan clustering
+2026-03-15 19:41:54
+ Clustered into 609 classes 
+
+learning rate:  3.5000000000000004e-05
+train v2--weight
+2026-03-15 19:42:01[Epoch:049] [001/200] | Loss: 0.021 | Acc: 100.0
+2026-03-15 19:42:28[Epoch:049] [050/200] | Loss: 0.171 | Acc: 97.2422
+2026-03-15 19:42:55[Epoch:049] [100/200] | Loss: 0.603 | Acc: 89.1016
+2026-03-15 19:43:23[Epoch:049] [150/200] | Loss: 0.816 | Acc: 85.224
+2026-03-15 19:43:54[Epoch:049] [200/200] | Loss: 0.939 | Acc: 82.752
+2026-03-15 19:43:54 extracting
+2026-03-15 19:43:57Extract Features: [1/151]	Time 3.181 (3.181)	Data 2.952 (2.952)	
+2026-03-15 19:44:14Extract Features: [100/151]	Time 0.217 (0.198)	Data 0.148 (0.126)	
+2026-03-15 19:44:26 extracting done 
+Mean AP: 85.9%
+CMC Scores:
+  top-1          94.2%
+  top-5          97.5%
+  top-10         98.4%
+{ 'Finished_epoch': 49, 'mAP': 85.9199%, rank1: 94%, 'best': 85.9199, 'at_epoch': 49, 'this_best': 1}
+2026-03-15 19:44:41
+Cost 3:07:15.516564
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:44:42 extracting
+2026-03-15 19:44:45Extract Features: [1/51]	Time 3.322 (3.322)	Data 2.950 (2.950)	
+2026-03-15 19:45:01 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 25.966282606124878
+2026-03-15 19:45:28 start dbscan clustering
+2026-03-15 19:45:29
+ Clustered into 609 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 19:45:37[Epoch:050] [001/200] | Loss: 0.048 | Acc: 99.6094
+2026-03-15 19:46:04[Epoch:050] [050/200] | Loss: 0.235 | Acc: 96.0078
+2026-03-15 19:46:32[Epoch:050] [100/200] | Loss: 0.524 | Acc: 90.457
+2026-03-15 19:46:59[Epoch:050] [150/200] | Loss: 0.707 | Acc: 86.9688
+2026-03-15 19:47:30[Epoch:050] [200/200] | Loss: 0.859 | Acc: 84.1016
+2026-03-15 19:47:30 extracting
+2026-03-15 19:47:33Extract Features: [1/151]	Time 3.119 (3.119)	Data 2.857 (2.857)	
+2026-03-15 19:48:03Extract Features: [100/151]	Time 0.233 (0.337)	Data 0.162 (0.260)	
+2026-03-15 19:48:29 extracting done 
+Mean AP: 86.0%
+CMC Scores:
+  top-1          94.3%
+  top-5          97.4%
+  top-10         98.3%
+{ 'Finished_epoch': 50, 'mAP': 86.0115%, rank1: 94%, 'best': 86.0115, 'at_epoch': 50, 'this_best': 1}
+2026-03-15 19:48:45
+Cost 3:11:19.894068
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:48:46 extracting
+2026-03-15 19:48:49Extract Features: [1/51]	Time 3.435 (3.435)	Data 3.004 (3.004)	
+2026-03-15 19:49:06 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 35.2292001247406
+2026-03-15 19:49:43 start dbscan clustering
+2026-03-15 19:49:44
+ Clustered into 609 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 19:49:53[Epoch:051] [001/200] | Loss: 0.052 | Acc: 99.2188
+2026-03-15 19:50:21[Epoch:051] [050/200] | Loss: 0.207 | Acc: 96.3438
+2026-03-15 19:50:49[Epoch:051] [100/200] | Loss: 0.511 | Acc: 90.7344
+2026-03-15 19:51:17[Epoch:051] [150/200] | Loss: 0.687 | Acc: 87.4714
+2026-03-15 19:51:49[Epoch:051] [200/200] | Loss: 0.813 | Acc: 85.0078
+2026-03-15 19:51:49 extracting
+2026-03-15 19:51:52Extract Features: [1/151]	Time 3.185 (3.185)	Data 2.914 (2.914)	
+2026-03-15 19:52:09Extract Features: [100/151]	Time 0.213 (0.200)	Data 0.144 (0.127)	
+2026-03-15 19:52:20 extracting done 
+Mean AP: 86.1%
+CMC Scores:
+  top-1          94.5%
+  top-5          97.5%
+  top-10         98.4%
+{ 'Finished_epoch': 51, 'mAP': 86.0882%, rank1: 95%, 'best': 86.0882, 'at_epoch': 51, 'this_best': 1}
+2026-03-15 19:52:36
+Cost 3:15:10.813035
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:52:37 extracting
+2026-03-15 19:52:40Extract Features: [1/51]	Time 3.456 (3.456)	Data 3.019 (3.019)	
+2026-03-15 19:52:57 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 32.487863063812256
+2026-03-15 19:53:30 start dbscan clustering
+2026-03-15 19:53:32
+ Clustered into 608 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 19:53:40[Epoch:052] [001/200] | Loss: 0.049 | Acc: 99.6094
+2026-03-15 19:54:08[Epoch:052] [050/200] | Loss: 0.173 | Acc: 97.1875
+2026-03-15 19:54:36[Epoch:052] [100/200] | Loss: 0.549 | Acc: 90.3203
+2026-03-15 19:55:04[Epoch:052] [150/200] | Loss: 0.759 | Acc: 86.3385
+2026-03-15 19:55:36[Epoch:052] [200/200] | Loss: 0.849 | Acc: 84.6133
+2026-03-15 19:55:36 extracting
+2026-03-15 19:55:39Extract Features: [1/151]	Time 3.163 (3.163)	Data 2.871 (2.871)	
+2026-03-15 19:55:56Extract Features: [100/151]	Time 0.228 (0.200)	Data 0.160 (0.127)	
+2026-03-15 19:56:07 extracting done 
+Mean AP: 86.0%
+CMC Scores:
+  top-1          94.4%
+  top-5          97.6%
+  top-10         98.4%
+{ 'Finished_epoch': 52, 'mAP': 86.0227%, rank1: 94%, 'best': 86.0882, 'at_epoch': 51, 'this_best': 0}
+2026-03-15 19:56:22
+Cost 3:18:56.652843
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 19:56:23 extracting
+2026-03-15 19:56:26Extract Features: [1/51]	Time 3.403 (3.403)	Data 2.931 (2.931)	
+2026-03-15 19:56:43 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.13740849494934
+2026-03-15 19:57:14 start dbscan clustering
+2026-03-15 19:57:16
+ Clustered into 608 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 19:57:24[Epoch:053] [001/200] | Loss: 0.071 | Acc: 98.4375
+2026-03-15 19:57:51[Epoch:053] [050/200] | Loss: 0.163 | Acc: 97.2734
+2026-03-15 19:58:18[Epoch:053] [100/200] | Loss: 0.488 | Acc: 90.9961
+2026-03-15 19:58:46[Epoch:053] [150/200] | Loss: 0.712 | Acc: 86.8776
+2026-03-15 19:59:16[Epoch:053] [200/200] | Loss: 0.850 | Acc: 84.2891
+2026-03-15 19:59:16 extracting
+2026-03-15 19:59:19Extract Features: [1/151]	Time 3.101 (3.101)	Data 2.848 (2.848)	
+2026-03-15 19:59:36Extract Features: [100/151]	Time 0.207 (0.199)	Data 0.140 (0.126)	
+2026-03-15 19:59:48 extracting done 
+Mean AP: 86.0%
+CMC Scores:
+  top-1          94.4%
+  top-5          97.5%
+  top-10         98.2%
+{ 'Finished_epoch': 53, 'mAP': 86.0436%, rank1: 94%, 'best': 86.0882, 'at_epoch': 51, 'this_best': 0}
+2026-03-15 20:00:03
+Cost 3:22:37.958780
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:00:04 extracting
+2026-03-15 20:00:08Extract Features: [1/51]	Time 3.411 (3.411)	Data 2.925 (2.925)	
+2026-03-15 20:00:25 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 33.71045207977295
+2026-03-15 20:00:59 start dbscan clustering
+2026-03-15 20:01:00
+ Clustered into 608 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:01:08[Epoch:054] [001/200] | Loss: 0.049 | Acc: 99.2188
+2026-03-15 20:01:35[Epoch:054] [050/200] | Loss: 0.193 | Acc: 96.6719
+2026-03-15 20:02:03[Epoch:054] [100/200] | Loss: 0.527 | Acc: 90.6055
+2026-03-15 20:02:31[Epoch:054] [150/200] | Loss: 0.729 | Acc: 86.6458
+2026-03-15 20:03:02[Epoch:054] [200/200] | Loss: 0.836 | Acc: 84.6582
+2026-03-15 20:03:02 extracting
+2026-03-15 20:03:05Extract Features: [1/151]	Time 3.085 (3.085)	Data 2.830 (2.830)	
+2026-03-15 20:03:23Extract Features: [100/151]	Time 0.191 (0.209)	Data 0.121 (0.136)	
+2026-03-15 20:03:34 extracting done 
+Mean AP: 86.0%
+CMC Scores:
+  top-1          94.1%
+  top-5          97.6%
+  top-10         98.4%
+{ 'Finished_epoch': 54, 'mAP': 86.0433%, rank1: 94%, 'best': 86.0882, 'at_epoch': 51, 'this_best': 0}
+2026-03-15 20:03:50
+Cost 3:26:24.929538
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:03:51 extracting
+2026-03-15 20:03:54Extract Features: [1/51]	Time 3.442 (3.442)	Data 2.974 (2.974)	
+2026-03-15 20:04:11 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.898970127105713
+2026-03-15 20:04:42 start dbscan clustering
+2026-03-15 20:04:44
+ Clustered into 609 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:04:51[Epoch:055] [001/200] | Loss: 0.026 | Acc: 100.0
+2026-03-15 20:05:17[Epoch:055] [050/200] | Loss: 0.180 | Acc: 97.0547
+2026-03-15 20:05:45[Epoch:055] [100/200] | Loss: 0.520 | Acc: 90.5508
+2026-03-15 20:06:13[Epoch:055] [150/200] | Loss: 0.687 | Acc: 87.8177
+2026-03-15 20:06:45[Epoch:055] [200/200] | Loss: 0.810 | Acc: 85.457
+2026-03-15 20:06:45 extracting
+2026-03-15 20:06:49Extract Features: [1/151]	Time 3.132 (3.132)	Data 2.814 (2.814)	
+2026-03-15 20:07:05Extract Features: [100/151]	Time 0.249 (0.198)	Data 0.180 (0.124)	
+2026-03-15 20:07:17 extracting done 
+Mean AP: 86.1%
+CMC Scores:
+  top-1          94.2%
+  top-5          97.6%
+  top-10         98.3%
+{ 'Finished_epoch': 55, 'mAP': 86.0752%, rank1: 94%, 'best': 86.0882, 'at_epoch': 51, 'this_best': 0}
+2026-03-15 20:07:31
+Cost 3:30:06.134422
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:07:32 extracting
+2026-03-15 20:07:36Extract Features: [1/51]	Time 3.419 (3.419)	Data 2.940 (2.940)	
+2026-03-15 20:07:52 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.502403020858765
+2026-03-15 20:08:23 start dbscan clustering
+2026-03-15 20:08:25
+ Clustered into 607 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:08:33[Epoch:056] [001/200] | Loss: 0.040 | Acc: 99.2188
+2026-03-15 20:09:00[Epoch:056] [050/200] | Loss: 0.217 | Acc: 96.0
+2026-03-15 20:09:27[Epoch:056] [100/200] | Loss: 0.530 | Acc: 90.5039
+2026-03-15 20:09:59[Epoch:056] [150/200] | Loss: 0.729 | Acc: 86.7734
+2026-03-15 20:10:25[Epoch:056] [200/200] | Loss: 0.807 | Acc: 85.3223
+2026-03-15 20:10:26 extracting
+2026-03-15 20:10:29Extract Features: [1/151]	Time 3.143 (3.143)	Data 2.801 (2.801)	
+2026-03-15 20:10:45Extract Features: [100/151]	Time 0.174 (0.199)	Data 0.106 (0.126)	
+2026-03-15 20:10:57 extracting done 
+Mean AP: 86.1%
+CMC Scores:
+  top-1          94.2%
+  top-5          97.5%
+  top-10         98.3%
+{ 'Finished_epoch': 56, 'mAP': 86.0893%, rank1: 94%, 'best': 86.0893, 'at_epoch': 56, 'this_best': 1}
+2026-03-15 20:11:12
+Cost 3:33:46.828957
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:11:13 extracting
+2026-03-15 20:11:16Extract Features: [1/51]	Time 3.440 (3.440)	Data 3.012 (3.012)	
+2026-03-15 20:11:33 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 35.24971795082092
+2026-03-15 20:12:09 start dbscan clustering
+2026-03-15 20:12:10
+ Clustered into 608 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:12:18[Epoch:057] [001/200] | Loss: 0.079 | Acc: 98.8281
+2026-03-15 20:12:46[Epoch:057] [050/200] | Loss: 0.163 | Acc: 97.3359
+2026-03-15 20:13:14[Epoch:057] [100/200] | Loss: 0.514 | Acc: 90.9141
+2026-03-15 20:13:42[Epoch:057] [150/200] | Loss: 0.696 | Acc: 87.6016
+2026-03-15 20:14:13[Epoch:057] [200/200] | Loss: 0.800 | Acc: 85.5449
+2026-03-15 20:14:13 extracting
+2026-03-15 20:14:16Extract Features: [1/151]	Time 3.192 (3.192)	Data 2.866 (2.866)	
+2026-03-15 20:14:33Extract Features: [100/151]	Time 0.232 (0.201)	Data 0.162 (0.128)	
+2026-03-15 20:14:45 extracting done 
+Mean AP: 86.1%
+CMC Scores:
+  top-1          94.2%
+  top-5          97.5%
+  top-10         98.4%
+{ 'Finished_epoch': 57, 'mAP': 86.1273%, rank1: 94%, 'best': 86.1273, 'at_epoch': 57, 'this_best': 1}
+2026-03-15 20:15:00
+Cost 3:37:34.860538
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:15:01 extracting
+2026-03-15 20:15:04Extract Features: [1/51]	Time 3.536 (3.536)	Data 3.058 (3.058)	
+2026-03-15 20:15:22 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 33.583046197891235
+2026-03-15 20:15:56 start dbscan clustering
+2026-03-15 20:15:57
+ Clustered into 611 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:16:05[Epoch:058] [001/200] | Loss: 0.044 | Acc: 99.2188
+2026-03-15 20:16:31[Epoch:058] [050/200] | Loss: 0.201 | Acc: 96.5781
+2026-03-15 20:16:59[Epoch:058] [100/200] | Loss: 0.490 | Acc: 91.2578
+2026-03-15 20:17:26[Epoch:058] [150/200] | Loss: 0.682 | Acc: 87.7083
+2026-03-15 20:17:58[Epoch:058] [200/200] | Loss: 0.813 | Acc: 85.2207
+2026-03-15 20:17:58 extracting
+2026-03-15 20:18:02Extract Features: [1/151]	Time 3.271 (3.271)	Data 2.989 (2.989)	
+2026-03-15 20:18:19Extract Features: [100/151]	Time 0.207 (0.203)	Data 0.138 (0.129)	
+2026-03-15 20:18:30 extracting done 
+Mean AP: 86.1%
+CMC Scores:
+  top-1          94.4%
+  top-5          97.6%
+  top-10         98.4%
+{ 'Finished_epoch': 58, 'mAP': 86.1149%, rank1: 94%, 'best': 86.1273, 'at_epoch': 57, 'this_best': 0}
+2026-03-15 20:18:46
+Cost 3:41:20.302107
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:18:46 extracting
+2026-03-15 20:18:50Extract Features: [1/51]	Time 3.361 (3.361)	Data 2.945 (2.945)	
+2026-03-15 20:19:06 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 34.96297526359558
+2026-03-15 20:19:42 start dbscan clustering
+2026-03-15 20:19:43
+ Clustered into 610 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:19:51[Epoch:059] [001/200] | Loss: 0.021 | Acc: 100.0
+2026-03-15 20:20:18[Epoch:059] [050/200] | Loss: 0.178 | Acc: 96.8203
+2026-03-15 20:20:46[Epoch:059] [100/200] | Loss: 0.499 | Acc: 90.7539
+2026-03-15 20:21:14[Epoch:059] [150/200] | Loss: 0.686 | Acc: 87.7005
+2026-03-15 20:21:46[Epoch:059] [200/200] | Loss: 0.809 | Acc: 85.3594
+2026-03-15 20:21:46 extracting
+2026-03-15 20:21:49Extract Features: [1/151]	Time 3.136 (3.136)	Data 2.900 (2.900)	
+2026-03-15 20:22:08Extract Features: [100/151]	Time 0.212 (0.218)	Data 0.139 (0.146)	
+2026-03-15 20:22:19 extracting done 
+Mean AP: 86.1%
+CMC Scores:
+  top-1          94.2%
+  top-5          97.4%
+  top-10         98.3%
+{ 'Finished_epoch': 59, 'mAP': 86.1259%, rank1: 94%, 'best': 86.1273, 'at_epoch': 57, 'this_best': 0}
+2026-03-15 20:22:33
+Cost 3:45:08.127735
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:22:34 extracting
+2026-03-15 20:22:38Extract Features: [1/51]	Time 3.301 (3.301)	Data 2.984 (2.984)	
+2026-03-15 20:22:54 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 31.910257816314697
+2026-03-15 20:23:26 start dbscan clustering
+2026-03-15 20:23:28
+ Clustered into 609 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:23:35[Epoch:060] [001/200] | Loss: 0.053 | Acc: 99.6094
+2026-03-15 20:24:02[Epoch:060] [050/200] | Loss: 0.172 | Acc: 97.0312
+2026-03-15 20:24:30[Epoch:060] [100/200] | Loss: 0.498 | Acc: 91.0
+2026-03-15 20:24:58[Epoch:060] [150/200] | Loss: 0.687 | Acc: 87.5208
+2026-03-15 20:25:30[Epoch:060] [200/200] | Loss: 0.795 | Acc: 85.4922
+2026-03-15 20:25:31 extracting
+2026-03-15 20:25:34Extract Features: [1/151]	Time 3.078 (3.078)	Data 2.815 (2.815)	
+2026-03-15 20:25:51Extract Features: [100/151]	Time 0.213 (0.194)	Data 0.142 (0.122)	
+2026-03-15 20:26:02 extracting done 
+Mean AP: 86.1%
+CMC Scores:
+  top-1          94.4%
+  top-5          97.5%
+  top-10         98.3%
+{ 'Finished_epoch': 60, 'mAP': 86.0984%, rank1: 94%, 'best': 86.1273, 'at_epoch': 57, 'this_best': 0}
+2026-03-15 20:26:18
+Cost 3:48:52.796364
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:26:19 extracting
+2026-03-15 20:26:23Extract Features: [1/51]	Time 3.597 (3.597)	Data 3.116 (3.116)	
+2026-03-15 20:26:40 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.597333192825317
+2026-03-15 20:27:11 start dbscan clustering
+2026-03-15 20:27:13
+ Clustered into 610 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:27:20[Epoch:061] [001/200] | Loss: 0.015 | Acc: 100.0
+2026-03-15 20:27:47[Epoch:061] [050/200] | Loss: 0.162 | Acc: 97.625
+2026-03-15 20:28:14[Epoch:061] [100/200] | Loss: 0.505 | Acc: 91.1992
+2026-03-15 20:28:42[Epoch:061] [150/200] | Loss: 0.685 | Acc: 87.6771
+2026-03-15 20:29:13[Epoch:061] [200/200] | Loss: 0.795 | Acc: 85.7461
+2026-03-15 20:29:14 extracting
+2026-03-15 20:29:17Extract Features: [1/151]	Time 3.109 (3.109)	Data 2.848 (2.848)	
+2026-03-15 20:29:34Extract Features: [100/151]	Time 0.212 (0.200)	Data 0.145 (0.127)	
+2026-03-15 20:29:46 extracting done 
+Mean AP: 86.2%
+CMC Scores:
+  top-1          94.4%
+  top-5          97.5%
+  top-10         98.3%
+{ 'Finished_epoch': 61, 'mAP': 86.1588%, rank1: 94%, 'best': 86.1588, 'at_epoch': 61, 'this_best': 1}
+2026-03-15 20:30:01
+Cost 3:52:35.365359
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:30:01 extracting
+2026-03-15 20:30:05Extract Features: [1/51]	Time 3.364 (3.364)	Data 2.977 (2.977)	
+2026-03-15 20:30:22 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 35.623515129089355
+2026-03-15 20:30:58 start dbscan clustering
+2026-03-15 20:31:00
+ Clustered into 610 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:31:08[Epoch:062] [001/200] | Loss: 0.022 | Acc: 99.6094
+2026-03-15 20:31:35[Epoch:062] [050/200] | Loss: 0.233 | Acc: 95.9922
+2026-03-15 20:32:03[Epoch:062] [100/200] | Loss: 0.496 | Acc: 91.1992
+2026-03-15 20:32:32[Epoch:062] [150/200] | Loss: 0.702 | Acc: 87.2266
+2026-03-15 20:33:03[Epoch:062] [200/200] | Loss: 0.808 | Acc: 85.2383
+2026-03-15 20:33:03 extracting
+2026-03-15 20:33:06Extract Features: [1/151]	Time 3.111 (3.111)	Data 2.816 (2.816)	
+2026-03-15 20:33:22Extract Features: [100/151]	Time 0.199 (0.196)	Data 0.129 (0.123)	
+2026-03-15 20:33:34 extracting done 
+Mean AP: 86.2%
+CMC Scores:
+  top-1          94.2%
+  top-5          97.5%
+  top-10         98.4%
+{ 'Finished_epoch': 62, 'mAP': 86.1533%, rank1: 94%, 'best': 86.1588, 'at_epoch': 61, 'this_best': 0}
+2026-03-15 20:33:49
+Cost 3:56:23.926062
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:33:50 extracting
+2026-03-15 20:33:53Extract Features: [1/51]	Time 3.326 (3.326)	Data 2.954 (2.954)	
+2026-03-15 20:34:10 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 31.410900592803955
+2026-03-15 20:34:42 start dbscan clustering
+2026-03-15 20:34:43
+ Clustered into 610 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:34:51[Epoch:063] [001/200] | Loss: 0.020 | Acc: 99.6094
+2026-03-15 20:35:17[Epoch:063] [050/200] | Loss: 0.210 | Acc: 96.4062
+2026-03-15 20:35:45[Epoch:063] [100/200] | Loss: 0.480 | Acc: 91.418
+2026-03-15 20:36:13[Epoch:063] [150/200] | Loss: 0.673 | Acc: 87.9401
+2026-03-15 20:36:45[Epoch:063] [200/200] | Loss: 0.795 | Acc: 85.6289
+2026-03-15 20:36:45 extracting
+2026-03-15 20:36:48Extract Features: [1/151]	Time 3.026 (3.026)	Data 2.775 (2.775)	
+2026-03-15 20:37:04Extract Features: [100/151]	Time 0.255 (0.196)	Data 0.154 (0.124)	
+2026-03-15 20:37:16 extracting done 
+Mean AP: 86.1%
+CMC Scores:
+  top-1          94.3%
+  top-5          97.5%
+  top-10         98.3%
+{ 'Finished_epoch': 63, 'mAP': 86.1409%, rank1: 94%, 'best': 86.1588, 'at_epoch': 61, 'this_best': 0}
+2026-03-15 20:37:31
+Cost 4:00:05.207349
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:37:31 extracting
+2026-03-15 20:37:35Extract Features: [1/51]	Time 3.411 (3.411)	Data 2.981 (2.981)	
+2026-03-15 20:37:52 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.554348707199097
+2026-03-15 20:38:22 start dbscan clustering
+2026-03-15 20:38:24
+ Clustered into 610 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:38:31[Epoch:064] [001/200] | Loss: 0.036 | Acc: 99.6094
+2026-03-15 20:38:58[Epoch:064] [050/200] | Loss: 0.172 | Acc: 97.3125
+2026-03-15 20:39:27[Epoch:064] [100/200] | Loss: 0.455 | Acc: 91.918
+2026-03-15 20:39:55[Epoch:064] [150/200] | Loss: 0.633 | Acc: 88.4609
+2026-03-15 20:40:26[Epoch:064] [200/200] | Loss: 0.744 | Acc: 86.3965
+2026-03-15 20:40:26 extracting
+2026-03-15 20:40:29Extract Features: [1/151]	Time 3.128 (3.128)	Data 2.843 (2.843)	
+2026-03-15 20:40:46Extract Features: [100/151]	Time 0.207 (0.197)	Data 0.139 (0.124)	
+2026-03-15 20:40:57 extracting done 
+Mean AP: 86.1%
+CMC Scores:
+  top-1          94.2%
+  top-5          97.4%
+  top-10         98.4%
+{ 'Finished_epoch': 64, 'mAP': 86.1438%, rank1: 94%, 'best': 86.1588, 'at_epoch': 61, 'this_best': 0}
+2026-03-15 20:41:12
+Cost 4:03:46.182487
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:41:12 extracting
+2026-03-15 20:41:16Extract Features: [1/51]	Time 3.377 (3.377)	Data 2.973 (2.973)	
+2026-03-15 20:41:34 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 32.534969091415405
+2026-03-15 20:42:07 start dbscan clustering
+2026-03-15 20:42:09
+ Clustered into 611 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:42:16[Epoch:065] [001/200] | Loss: 0.028 | Acc: 100.0
+2026-03-15 20:42:44[Epoch:065] [050/200] | Loss: 0.192 | Acc: 97.1719
+2026-03-15 20:43:11[Epoch:065] [100/200] | Loss: 0.486 | Acc: 91.3398
+2026-03-15 20:43:40[Epoch:065] [150/200] | Loss: 0.708 | Acc: 87.349
+2026-03-15 20:44:11[Epoch:065] [200/200] | Loss: 0.805 | Acc: 85.4785
+2026-03-15 20:44:11 extracting
+2026-03-15 20:44:14Extract Features: [1/151]	Time 3.046 (3.046)	Data 2.806 (2.806)	
+2026-03-15 20:44:31Extract Features: [100/151]	Time 0.204 (0.208)	Data 0.133 (0.135)	
+2026-03-15 20:44:43 extracting done 
+Mean AP: 86.2%
+CMC Scores:
+  top-1          94.3%
+  top-5          97.5%
+  top-10         98.4%
+{ 'Finished_epoch': 65, 'mAP': 86.1563%, rank1: 94%, 'best': 86.1588, 'at_epoch': 61, 'this_best': 0}
+2026-03-15 20:44:58
+Cost 4:07:32.824495
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:44:59 extracting
+2026-03-15 20:45:02Extract Features: [1/51]	Time 3.384 (3.384)	Data 2.925 (2.925)	
+2026-03-15 20:45:19 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 34.418851137161255
+2026-03-15 20:45:54 start dbscan clustering
+2026-03-15 20:45:56
+ Clustered into 610 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:46:03[Epoch:066] [001/200] | Loss: 0.042 | Acc: 99.2188
+2026-03-15 20:46:31[Epoch:066] [050/200] | Loss: 0.171 | Acc: 96.9531
+2026-03-15 20:46:58[Epoch:066] [100/200] | Loss: 0.488 | Acc: 91.1289
+2026-03-15 20:47:26[Epoch:066] [150/200] | Loss: 0.649 | Acc: 88.2292
+2026-03-15 20:47:57[Epoch:066] [200/200] | Loss: 0.760 | Acc: 86.2109
+2026-03-15 20:47:57 extracting
+2026-03-15 20:48:00Extract Features: [1/151]	Time 3.176 (3.176)	Data 2.842 (2.842)	
+2026-03-15 20:48:30Extract Features: [100/151]	Time 0.219 (0.325)	Data 0.150 (0.250)	
+2026-03-15 20:48:45 extracting done 
+Mean AP: 86.2%
+CMC Scores:
+  top-1          94.3%
+  top-5          97.4%
+  top-10         98.4%
+{ 'Finished_epoch': 66, 'mAP': 86.1507%, rank1: 94%, 'best': 86.1588, 'at_epoch': 61, 'this_best': 0}
+2026-03-15 20:49:02
+Cost 4:11:36.534130
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:49:03 extracting
+2026-03-15 20:49:06Extract Features: [1/51]	Time 3.395 (3.395)	Data 2.961 (2.961)	
+2026-03-15 20:49:22 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 34.61474680900574
+2026-03-15 20:49:58 start dbscan clustering
+2026-03-15 20:50:00
+ Clustered into 610 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:50:07[Epoch:067] [001/200] | Loss: 0.038 | Acc: 98.8281
+2026-03-15 20:50:35[Epoch:067] [050/200] | Loss: 0.170 | Acc: 97.2734
+2026-03-15 20:51:03[Epoch:067] [100/200] | Loss: 0.479 | Acc: 91.2734
+2026-03-15 20:51:31[Epoch:067] [150/200] | Loss: 0.678 | Acc: 87.6849
+2026-03-15 20:52:02[Epoch:067] [200/200] | Loss: 0.796 | Acc: 85.3633
+2026-03-15 20:52:03 extracting
+2026-03-15 20:52:06Extract Features: [1/151]	Time 3.153 (3.153)	Data 2.829 (2.829)	
+2026-03-15 20:52:23Extract Features: [100/151]	Time 0.212 (0.200)	Data 0.143 (0.127)	
+2026-03-15 20:52:34 extracting done 
+Mean AP: 86.2%
+CMC Scores:
+  top-1          94.6%
+  top-5          97.4%
+  top-10         98.3%
+{ 'Finished_epoch': 67, 'mAP': 86.1996%, rank1: 95%, 'best': 86.1996, 'at_epoch': 67, 'this_best': 1}
+2026-03-15 20:52:49
+Cost 4:15:23.779918
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:52:50 extracting
+2026-03-15 20:52:53Extract Features: [1/51]	Time 3.354 (3.354)	Data 2.954 (2.954)	
+2026-03-15 20:53:10 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.712833881378174
+2026-03-15 20:53:40 start dbscan clustering
+2026-03-15 20:53:42
+ Clustered into 611 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:53:50[Epoch:068] [001/200] | Loss: 0.060 | Acc: 99.2188
+2026-03-15 20:54:17[Epoch:068] [050/200] | Loss: 0.225 | Acc: 95.9375
+2026-03-15 20:54:45[Epoch:068] [100/200] | Loss: 0.504 | Acc: 90.8477
+2026-03-15 20:55:13[Epoch:068] [150/200] | Loss: 0.679 | Acc: 87.5651
+2026-03-15 20:55:45[Epoch:068] [200/200] | Loss: 0.792 | Acc: 85.4316
+2026-03-15 20:55:45 extracting
+2026-03-15 20:55:48Extract Features: [1/151]	Time 3.162 (3.162)	Data 2.818 (2.818)	
+2026-03-15 20:56:06Extract Features: [100/151]	Time 0.219 (0.205)	Data 0.151 (0.132)	
+2026-03-15 20:56:17 extracting done 
+Mean AP: 86.2%
+CMC Scores:
+  top-1          94.4%
+  top-5          97.4%
+  top-10         98.3%
+{ 'Finished_epoch': 68, 'mAP': 86.2365%, rank1: 94%, 'best': 86.2365, 'at_epoch': 68, 'this_best': 1}
+2026-03-15 20:56:32
+Cost 4:19:06.608077
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 20:56:33 extracting
+2026-03-15 20:56:36Extract Features: [1/51]	Time 3.401 (3.401)	Data 2.926 (2.926)	
+2026-03-15 20:56:53 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.44643473625183
+2026-03-15 20:57:24 start dbscan clustering
+2026-03-15 20:57:25
+ Clustered into 612 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 20:57:33[Epoch:069] [001/200] | Loss: 0.039 | Acc: 99.2188
+2026-03-15 20:57:59[Epoch:069] [050/200] | Loss: 0.155 | Acc: 97.6484
+2026-03-15 20:58:27[Epoch:069] [100/200] | Loss: 0.449 | Acc: 92.1133
+2026-03-15 20:58:55[Epoch:069] [150/200] | Loss: 0.643 | Acc: 88.2891
+2026-03-15 20:59:26[Epoch:069] [200/200] | Loss: 0.762 | Acc: 86.2188
+2026-03-15 20:59:26 extracting
+2026-03-15 20:59:29Extract Features: [1/151]	Time 3.149 (3.149)	Data 2.849 (2.849)	
+2026-03-15 20:59:46Extract Features: [100/151]	Time 0.201 (0.203)	Data 0.130 (0.130)	
+2026-03-15 20:59:58 extracting done 
+Mean AP: 86.2%
+CMC Scores:
+  top-1          94.4%
+  top-5          97.5%
+  top-10         98.3%
+{ 'Finished_epoch': 69, 'mAP': 86.2005%, rank1: 94%, 'best': 86.2365, 'at_epoch': 68, 'this_best': 0}
+2026-03-15 21:00:14
+Cost 4:22:48.325018
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 21:00:14 extracting
+2026-03-15 21:00:18Extract Features: [1/51]	Time 3.383 (3.383)	Data 2.959 (2.959)	
+2026-03-15 21:00:35 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 32.09476613998413
+2026-03-15 21:01:07 start dbscan clustering
+2026-03-15 21:01:09
+ Clustered into 611 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 21:01:16[Epoch:070] [001/200] | Loss: 0.101 | Acc: 98.4375
+2026-03-15 21:01:43[Epoch:070] [050/200] | Loss: 0.157 | Acc: 97.4219
+2026-03-15 21:02:11[Epoch:070] [100/200] | Loss: 0.465 | Acc: 91.5391
+2026-03-15 21:02:40[Epoch:070] [150/200] | Loss: 0.647 | Acc: 88.0859
+2026-03-15 21:03:12[Epoch:070] [200/200] | Loss: 0.752 | Acc: 86.1895
+2026-03-15 21:03:12 extracting
+2026-03-15 21:03:15Extract Features: [1/151]	Time 3.055 (3.055)	Data 2.802 (2.802)	
+2026-03-15 21:03:33Extract Features: [100/151]	Time 0.241 (0.209)	Data 0.138 (0.136)	
+2026-03-15 21:03:44 extracting done 
+Mean AP: 86.2%
+CMC Scores:
+  top-1          94.5%
+  top-5          97.4%
+  top-10         98.3%
+{ 'Finished_epoch': 70, 'mAP': 86.218%, rank1: 95%, 'best': 86.2365, 'at_epoch': 68, 'this_best': 0}
+2026-03-15 21:04:00
+Cost 4:26:34.199273
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 21:04:00 extracting
+2026-03-15 21:04:04Extract Features: [1/51]	Time 3.446 (3.446)	Data 3.077 (3.077)	
+2026-03-15 21:04:22 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.81661367416382
+2026-03-15 21:04:52 start dbscan clustering
+2026-03-15 21:04:53
+ Clustered into 613 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 21:05:01[Epoch:071] [001/200] | Loss: 0.035 | Acc: 100.0
+2026-03-15 21:05:28[Epoch:071] [050/200] | Loss: 0.184 | Acc: 96.7422
+2026-03-15 21:05:56[Epoch:071] [100/200] | Loss: 0.464 | Acc: 91.6289
+2026-03-15 21:06:24[Epoch:071] [150/200] | Loss: 0.682 | Acc: 87.5365
+2026-03-15 21:06:56[Epoch:071] [200/200] | Loss: 0.781 | Acc: 85.6523
+2026-03-15 21:06:56 extracting
+2026-03-15 21:06:59Extract Features: [1/151]	Time 2.994 (2.994)	Data 2.801 (2.801)	
+2026-03-15 21:07:16Extract Features: [100/151]	Time 0.198 (0.197)	Data 0.126 (0.126)	
+2026-03-15 21:07:27 extracting done 
+Mean AP: 86.2%
+CMC Scores:
+  top-1          94.3%
+  top-5          97.4%
+  top-10         98.3%
+{ 'Finished_epoch': 71, 'mAP': 86.2428%, rank1: 94%, 'best': 86.2428, 'at_epoch': 71, 'this_best': 1}
+2026-03-15 21:07:42
+Cost 4:30:16.916158
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 21:07:43 extracting
+2026-03-15 21:07:46Extract Features: [1/51]	Time 3.293 (3.293)	Data 2.917 (2.917)	
+2026-03-15 21:08:03 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 29.516913652420044
+2026-03-15 21:08:33 start dbscan clustering
+2026-03-15 21:08:35
+ Clustered into 612 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 21:08:43[Epoch:072] [001/200] | Loss: 0.068 | Acc: 99.2188
+2026-03-15 21:09:09[Epoch:072] [050/200] | Loss: 0.169 | Acc: 96.9531
+2026-03-15 21:09:37[Epoch:072] [100/200] | Loss: 0.456 | Acc: 92.0547
+2026-03-15 21:10:05[Epoch:072] [150/200] | Loss: 0.639 | Acc: 88.7943
+2026-03-15 21:10:36[Epoch:072] [200/200] | Loss: 0.753 | Acc: 86.6191
+2026-03-15 21:10:36 extracting
+2026-03-15 21:10:39Extract Features: [1/151]	Time 3.087 (3.087)	Data 2.817 (2.817)	
+2026-03-15 21:10:58Extract Features: [100/151]	Time 0.223 (0.223)	Data 0.152 (0.150)	
+2026-03-15 21:11:10 extracting done 
+Mean AP: 86.3%
+CMC Scores:
+  top-1          94.4%
+  top-5          97.5%
+  top-10         98.3%
+{ 'Finished_epoch': 72, 'mAP': 86.2538%, rank1: 94%, 'best': 86.2538, 'at_epoch': 72, 'this_best': 1}
+2026-03-15 21:11:24
+Cost 4:33:59.136628
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 21:11:25 extracting
+2026-03-15 21:11:29Extract Features: [1/51]	Time 3.354 (3.354)	Data 2.948 (2.948)	
+2026-03-15 21:11:46 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 30.998978853225708
+2026-03-15 21:12:17 start dbscan clustering
+2026-03-15 21:12:19
+ Clustered into 612 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 21:12:26[Epoch:073] [001/200] | Loss: 0.021 | Acc: 100.0
+2026-03-15 21:12:54[Epoch:073] [050/200] | Loss: 0.148 | Acc: 97.4141
+2026-03-15 21:13:23[Epoch:073] [100/200] | Loss: 0.458 | Acc: 91.875
+2026-03-15 21:13:51[Epoch:073] [150/200] | Loss: 0.631 | Acc: 88.6797
+2026-03-15 21:14:22[Epoch:073] [200/200] | Loss: 0.752 | Acc: 86.291
+2026-03-15 21:14:22 extracting
+2026-03-15 21:14:26Extract Features: [1/151]	Time 3.166 (3.166)	Data 2.884 (2.884)	
+2026-03-15 21:14:42Extract Features: [100/151]	Time 0.218 (0.199)	Data 0.150 (0.126)	
+2026-03-15 21:14:54 extracting done 
+Mean AP: 86.2%
+CMC Scores:
+  top-1          94.2%
+  top-5          97.5%
+  top-10         98.3%
+{ 'Finished_epoch': 73, 'mAP': 86.2112%, rank1: 94%, 'best': 86.2538, 'at_epoch': 72, 'this_best': 0}
+2026-03-15 21:15:09
+Cost 4:37:43.836482
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+2026-03-15 21:15:10 extracting
+2026-03-15 21:15:13Extract Features: [1/51]	Time 3.390 (3.390)	Data 2.927 (2.927)	
+2026-03-15 21:15:30 extracting done 
+Computing jaccard distance...
+Jaccard distance computing time cost: 35.37051224708557
+2026-03-15 21:16:06 start dbscan clustering
+2026-03-15 21:16:08
+ Clustered into 611 classes 
+
+learning rate:  3.500000000000001e-06
+train v2--weight
+2026-03-15 21:16:16[Epoch:074] [001/200] | Loss: 0.030 | Acc: 100.0
+2026-03-15 21:16:42[Epoch:074] [050/200] | Loss: 0.190 | Acc: 96.6484
+2026-03-15 21:17:09[Epoch:074] [100/200] | Loss: 0.463 | Acc: 91.5352
+2026-03-15 21:17:38[Epoch:074] [150/200] | Loss: 0.664 | Acc: 87.8464
+2026-03-15 21:18:09[Epoch:074] [200/200] | Loss: 0.777 | Acc: 85.6875
+2026-03-15 21:18:09 extracting
+2026-03-15 21:18:12Extract Features: [1/151]	Time 3.183 (3.183)	Data 2.945 (2.945)	
+2026-03-15 21:18:29Extract Features: [100/151]	Time 0.214 (0.198)	Data 0.144 (0.126)	
+2026-03-15 21:18:41 extracting done 
+Mean AP: 86.3%
+CMC Scores:
+  top-1          94.2%
+  top-5          97.5%
+  top-10         98.5%
+{ 'Finished_epoch': 74, 'mAP': 86.2906%, rank1: 94%, 'best': 86.2906, 'at_epoch': 74, 'this_best': 1}
+2026-03-15 21:18:56
+Cost 4:41:30.407994
+log-repeat-on-market/256b-200iter-25step-0.6eps-75epochs-0.05beta-far-update-0.9-0.2
+
+2026-03-15 21:18:56.438801
+Cost 4:41:30.589070
