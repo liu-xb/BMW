@@ -17,6 +17,11 @@ The proposed inter-class constraint clearly boosts the performance:
 ![](training_procedures.svg)
 
 
+
+The checkpoint on Market-1501 can be downloaded at [here](https://pan.baidu.com/s/1ppYkNN-neBXIWIeGTdmuzw?pwd=bmw2) with password "bmw2".
+
+
+
 ```
 @inproceedings{liubmw,
   title={BMW: Bidirectionally Memory bank reWriting for Unsupervised Person Re-Identification},
